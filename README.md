@@ -58,6 +58,8 @@
 
 Текст ИСО\ГОСТ 27001: [./theory_fun_is/текст_гост_исо_27001.pdf](./theory_fun_is/текст_гост_исо_27001.pdf)
 
+Тесты: [./theory_fun_is/questions.html](./theory_fun_is/questions.html)
+
 # 8. Защищенные информационные системы
 
 Директория: [secure_is](./secure_is/)
