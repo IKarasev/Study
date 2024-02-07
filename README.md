@@ -1,4 +1,4 @@
-# Первый курс
+# Первый курс. Семестр 1.
 
 ## 1. Нормативно-правовое обеспечение информационной безопасности
 
@@ -76,4 +76,18 @@
 Тесты:
 - Исходник: [./secure_is/questions.html](./secure_is/questions.html)
 - Как web: [https://raw.githack.com/IKarasev/Study/main/secure_is/questions.html](https://raw.githack.com/IKarasev/Study/main/secure_is/questions.html)
+
+# Первый курс. Семестр 2.
+
+## Выбор трека
+
+![alt text](./img/vybor_treka_obuchenia.png) 
+
+## 9. Управление информационной безопасностью
+
+Директория: [uib](./uib/)
+
+Модули:
+1. [Модуль 1. Архитектура организации и корпоративная архитектура безопасности](<./uib/01 Арх орг и корп арх безоп.md>)
+
 
