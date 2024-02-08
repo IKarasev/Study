@@ -89,5 +89,10 @@
 
 Модули:
 1. [Модуль 1. Архитектура организации и корпоративная архитектура безопасности](<./uib/01 Арх орг и корп арх безоп.md>)
+1. [Модуль 2. Система управления ИБ](<./uib/02 Система управления ИБ.md>)
+1. [Модуль 3. Фреймворки контролей и процессов ИТ/ИБ](<./uib/03 Фреймворки контролей и процессов ИТ_ИБ.md>)
 
+Тесты:
+- Исходник: [./uib/questions.html](./uib/questions.html)
+- Как Web: [https://raw.githack.com/IKarasev/Study/main/uib/questions.html](https://raw.githack.com/IKarasev/Study/main/uib/questions.html)
 
