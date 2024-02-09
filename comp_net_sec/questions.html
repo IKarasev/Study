@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Безопасность вычислительных сетей</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <style>
+        fieldset {
+            margin-bottom: 1rem;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        .wrapper {
+            width: 100%;
+            max-width: 1000px;
+            padding-left: 1rem;
+        }
+
+        .wrapper-problem-response p {
+            font-weight: bold;
+        }
+    </style>
+    <div class="wrapper">
+        <h2>Модуль 1. Атаки на стек протоколов TCP/IP (HW)</h2>
+        <div>
+            <h3>5/12 Протокол ARP</h3>
+            <div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>Как расшифровывается протокол ARP?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1">
+                        <fieldset aria-describedby="status_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1">
+
+                            <div class="field">
+                                <input type="radio" name="input_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1"
+                                    id="input_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1_choice_0"
+                                    class="field-input input-radio" value="choice_0"><label
+                                    id="07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1-choice_0-label"
+                                    for="input_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1_choice_0"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1"> Advanced Routing
+                                    Protocol
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1"
+                                    id="input_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1_choice_1"
+                                    class="field-input input-radio submitted" value="choice_1" checked="true"><label
+                                    id="07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1-choice_1-label"
+                                    for="input_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1_choice_1"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1"> Address Resolution
+                                    Protocol
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1"
+                                    id="input_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1_choice_2"
+                                    class="field-input input-radio" value="choice_2"><label
+                                    id="07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1-choice_2-label"
+                                    for="input_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1_choice_2"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1"> Automatic Resource
+                                    Provisioning
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1"
+                                    id="input_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1_choice_3"
+                                    class="field-input input-radio" value="choice_3"><label
+                                    id="07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1-choice_3-label"
+                                    for="input_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1_choice_3"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1"> Access Request
+                                    Protocol
+                                </label>
+                            </div>
+                            <span id="answer_07dd62f5cebd4c72abf7bd05fc3d9ce4_2_1"></span>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>Какая основная задача протокола ARP?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_b38c7c9f78a64080bd29ff365a021f69_2_1">
+                        <fieldset aria-describedby="status_b38c7c9f78a64080bd29ff365a021f69_2_1">
+
+                            <div class="field">
+                                <input type="radio" name="input_b38c7c9f78a64080bd29ff365a021f69_2_1"
+                                    id="input_b38c7c9f78a64080bd29ff365a021f69_2_1_choice_0"
+                                    class="field-input input-radio" value="choice_0"><label
+                                    id="b38c7c9f78a64080bd29ff365a021f69_2_1-choice_0-label"
+                                    for="input_b38c7c9f78a64080bd29ff365a021f69_2_1_choice_0"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_b38c7c9f78a64080bd29ff365a021f69_2_1"> Маршрутизация данных
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_b38c7c9f78a64080bd29ff365a021f69_2_1"
+                                    id="input_b38c7c9f78a64080bd29ff365a021f69_2_1_choice_1"
+                                    class="field-input input-radio submitted" value="choice_1" checked="true"><label
+                                    id="b38c7c9f78a64080bd29ff365a021f69_2_1-choice_1-label"
+                                    for="input_b38c7c9f78a64080bd29ff365a021f69_2_1_choice_1"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_b38c7c9f78a64080bd29ff365a021f69_2_1"> Разрешение
+                                    IP-адресов в MAC-адреса
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_b38c7c9f78a64080bd29ff365a021f69_2_1"
+                                    id="input_b38c7c9f78a64080bd29ff365a021f69_2_1_choice_2"
+                                    class="field-input input-radio" value="choice_2"><label
+                                    id="b38c7c9f78a64080bd29ff365a021f69_2_1-choice_2-label"
+                                    for="input_b38c7c9f78a64080bd29ff365a021f69_2_1_choice_2"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_b38c7c9f78a64080bd29ff365a021f69_2_1"> Шифрование сетевого
+                                    трафика
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_b38c7c9f78a64080bd29ff365a021f69_2_1"
+                                    id="input_b38c7c9f78a64080bd29ff365a021f69_2_1_choice_3"
+                                    class="field-input input-radio" value="choice_3"><label
+                                    id="b38c7c9f78a64080bd29ff365a021f69_2_1-choice_3-label"
+                                    for="input_b38c7c9f78a64080bd29ff365a021f69_2_1_choice_3"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_b38c7c9f78a64080bd29ff365a021f69_2_1"> Аутентификация
+                                    пользователей
+                                </label>
+                            </div>
+                            <span id="answer_b38c7c9f78a64080bd29ff365a021f69_2_1"></span>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>Какова роль ARP Request в процессе разрешения адресов?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_7c71eb7e65c244beba58a8c6932ad91e_2_1">
+                        <fieldset aria-describedby="status_7c71eb7e65c244beba58a8c6932ad91e_2_1">
+
+                            <div class="field">
+                                <input type="radio" name="input_7c71eb7e65c244beba58a8c6932ad91e_2_1"
+                                    id="input_7c71eb7e65c244beba58a8c6932ad91e_2_1_choice_0"
+                                    class="field-input input-radio submitted" value="choice_0" checked="true"><label
+                                    id="7c71eb7e65c244beba58a8c6932ad91e_2_1-choice_0-label"
+                                    for="input_7c71eb7e65c244beba58a8c6932ad91e_2_1_choice_0"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_7c71eb7e65c244beba58a8c6932ad91e_2_1"> Запрашивает
+                                    MAC-адрес для известного IP-адреса в сети
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_7c71eb7e65c244beba58a8c6932ad91e_2_1"
+                                    id="input_7c71eb7e65c244beba58a8c6932ad91e_2_1_choice_1"
+                                    class="field-input input-radio" value="choice_1"><label
+                                    id="7c71eb7e65c244beba58a8c6932ad91e_2_1-choice_1-label"
+                                    for="input_7c71eb7e65c244beba58a8c6932ad91e_2_1_choice_1"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_7c71eb7e65c244beba58a8c6932ad91e_2_1"> Обновляет кэш ARP с
+                                    новыми данными
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_7c71eb7e65c244beba58a8c6932ad91e_2_1"
+                                    id="input_7c71eb7e65c244beba58a8c6932ad91e_2_1_choice_2"
+                                    class="field-input input-radio" value="choice_2"><label
+                                    id="7c71eb7e65c244beba58a8c6932ad91e_2_1-choice_2-label"
+                                    for="input_7c71eb7e65c244beba58a8c6932ad91e_2_1_choice_2"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_7c71eb7e65c244beba58a8c6932ad91e_2_1"> Запрашивает IP-адрес
+                                    для известного MAC-адреса
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_7c71eb7e65c244beba58a8c6932ad91e_2_1"
+                                    id="input_7c71eb7e65c244beba58a8c6932ad91e_2_1_choice_3"
+                                    class="field-input input-radio" value="choice_3"><label
+                                    id="7c71eb7e65c244beba58a8c6932ad91e_2_1-choice_3-label"
+                                    for="input_7c71eb7e65c244beba58a8c6932ad91e_2_1_choice_3"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_7c71eb7e65c244beba58a8c6932ad91e_2_1"> Перенаправляет
+                                    сетевой трафик на определенный порт
+                                </label>
+                            </div>
+                            <span id="answer_7c71eb7e65c244beba58a8c6932ad91e_2_1"></span>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>Что происходит, если устройство получает ARP Reply с соответствием IP-адреса и MAC-адреса?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_585a3603590c49e9acedc3fcc219e922_2_1">
+                        <fieldset aria-describedby="status_585a3603590c49e9acedc3fcc219e922_2_1">
+
+                            <div class="field">
+                                <input type="radio" name="input_585a3603590c49e9acedc3fcc219e922_2_1"
+                                    id="input_585a3603590c49e9acedc3fcc219e922_2_1_choice_0"
+                                    class="field-input input-radio" value="choice_0"><label
+                                    id="585a3603590c49e9acedc3fcc219e922_2_1-choice_0-label"
+                                    for="input_585a3603590c49e9acedc3fcc219e922_2_1_choice_0"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_585a3603590c49e9acedc3fcc219e922_2_1"> Устройство блокирует
+                                    передачу данных
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_585a3603590c49e9acedc3fcc219e922_2_1"
+                                    id="input_585a3603590c49e9acedc3fcc219e922_2_1_choice_1"
+                                    class="field-input input-radio" value="choice_1"><label
+                                    id="585a3603590c49e9acedc3fcc219e922_2_1-choice_1-label"
+                                    for="input_585a3603590c49e9acedc3fcc219e922_2_1_choice_1"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_585a3603590c49e9acedc3fcc219e922_2_1"> Устройство
+                                    переключается на другую сеть
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_585a3603590c49e9acedc3fcc219e922_2_1"
+                                    id="input_585a3603590c49e9acedc3fcc219e922_2_1_choice_2"
+                                    class="field-input input-radio submitted" value="choice_2" checked="true"><label
+                                    id="585a3603590c49e9acedc3fcc219e922_2_1-choice_2-label"
+                                    for="input_585a3603590c49e9acedc3fcc219e922_2_1_choice_2"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_585a3603590c49e9acedc3fcc219e922_2_1"> Устройство обновляет
+                                    свою ARP-таблицу
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_585a3603590c49e9acedc3fcc219e922_2_1"
+                                    id="input_585a3603590c49e9acedc3fcc219e922_2_1_choice_3"
+                                    class="field-input input-radio" value="choice_3"><label
+                                    id="585a3603590c49e9acedc3fcc219e922_2_1-choice_3-label"
+                                    for="input_585a3603590c49e9acedc3fcc219e922_2_1_choice_3"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_585a3603590c49e9acedc3fcc219e922_2_1"> Устройство
+                                    отправляет ICMP Echo Request
+                                </label>
+                            </div>
+                            <span id="answer_585a3603590c49e9acedc3fcc219e922_2_1"></span>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>Как расшифровывается аббревиатура RARP в протоколе компьютерных сетей, какое основное назначение
+                        у протокола RARP?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_90a865671f4f4b6abf17077bc6e5d356_2_1">
+                        <fieldset aria-describedby="status_90a865671f4f4b6abf17077bc6e5d356_2_1">
+
+                            <div class="field">
+                                <input type="radio" name="input_90a865671f4f4b6abf17077bc6e5d356_2_1"
+                                    id="input_90a865671f4f4b6abf17077bc6e5d356_2_1_choice_0"
+                                    class="field-input input-radio" value="choice_0"><label
+                                    id="90a865671f4f4b6abf17077bc6e5d356_2_1-choice_0-label"
+                                    for="input_90a865671f4f4b6abf17077bc6e5d356_2_1_choice_0"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_90a865671f4f4b6abf17077bc6e5d356_2_1"> Routing Address
+                                    Resolution Protocol, обеспечение связности в сетях
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_90a865671f4f4b6abf17077bc6e5d356_2_1"
+                                    id="input_90a865671f4f4b6abf17077bc6e5d356_2_1_choice_1"
+                                    class="field-input input-radio" value="choice_1"><label
+                                    id="90a865671f4f4b6abf17077bc6e5d356_2_1-choice_1-label"
+                                    for="input_90a865671f4f4b6abf17077bc6e5d356_2_1_choice_1"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_90a865671f4f4b6abf17077bc6e5d356_2_1"> Random Access
+                                    Reverse Protocol, случайное изменение IP-адресов
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_90a865671f4f4b6abf17077bc6e5d356_2_1"
+                                    id="input_90a865671f4f4b6abf17077bc6e5d356_2_1_choice_2"
+                                    class="field-input input-radio" value="choice_2"><label
+                                    id="90a865671f4f4b6abf17077bc6e5d356_2_1-choice_2-label"
+                                    for="input_90a865671f4f4b6abf17077bc6e5d356_2_1_choice_2"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_90a865671f4f4b6abf17077bc6e5d356_2_1"> Redundant ARP,
+                                    резервирование ARP-таблиц
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_90a865671f4f4b6abf17077bc6e5d356_2_1"
+                                    id="input_90a865671f4f4b6abf17077bc6e5d356_2_1_choice_3"
+                                    class="field-input input-radio submitted" value="choice_3" checked="true"><label
+                                    id="90a865671f4f4b6abf17077bc6e5d356_2_1-choice_3-label"
+                                    for="input_90a865671f4f4b6abf17077bc6e5d356_2_1_choice_3"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_90a865671f4f4b6abf17077bc6e5d356_2_1"> Reverse Address
+                                    Resolution Protocol, определение IP-адреса по известному MAC-адресу
+                                </label>
+                            </div>
+                            <span id="answer_90a865671f4f4b6abf17077bc6e5d356_2_1"></span>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+
+            <h3>8/12 Протокол TCP</h3>
+            <div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>На каком уровне стека протоколов TCP/IP работает протокол TCP?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_d8971db23c6d4c618f95c8a43121086c_2_1">
+                        <fieldset aria-describedby="status_d8971db23c6d4c618f95c8a43121086c_2_1">
+
+                            <div class="field">
+                                <input type="radio" name="input_d8971db23c6d4c618f95c8a43121086c_2_1"
+                                    id="input_d8971db23c6d4c618f95c8a43121086c_2_1_choice_0"
+                                    class="field-input input-radio" value="choice_0"><label
+                                    id="d8971db23c6d4c618f95c8a43121086c_2_1-choice_0-label"
+                                    for="input_d8971db23c6d4c618f95c8a43121086c_2_1_choice_0"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_d8971db23c6d4c618f95c8a43121086c_2_1"> канальный
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_d8971db23c6d4c618f95c8a43121086c_2_1"
+                                    id="input_d8971db23c6d4c618f95c8a43121086c_2_1_choice_1"
+                                    class="field-input input-radio" value="choice_1"><label
+                                    id="d8971db23c6d4c618f95c8a43121086c_2_1-choice_1-label"
+                                    for="input_d8971db23c6d4c618f95c8a43121086c_2_1_choice_1"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_d8971db23c6d4c618f95c8a43121086c_2_1"> сетевой
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_d8971db23c6d4c618f95c8a43121086c_2_1"
+                                    id="input_d8971db23c6d4c618f95c8a43121086c_2_1_choice_2"
+                                    class="field-input input-radio submitted" value="choice_2" checked="true"><label
+                                    id="d8971db23c6d4c618f95c8a43121086c_2_1-choice_2-label"
+                                    for="input_d8971db23c6d4c618f95c8a43121086c_2_1_choice_2"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_d8971db23c6d4c618f95c8a43121086c_2_1"> транспортный
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_d8971db23c6d4c618f95c8a43121086c_2_1"
+                                    id="input_d8971db23c6d4c618f95c8a43121086c_2_1_choice_3"
+                                    class="field-input input-radio" value="choice_3"><label
+                                    id="d8971db23c6d4c618f95c8a43121086c_2_1-choice_3-label"
+                                    for="input_d8971db23c6d4c618f95c8a43121086c_2_1_choice_3"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_d8971db23c6d4c618f95c8a43121086c_2_1"> прикладной
+                                </label>
+                            </div>
+                            <span id="answer_d8971db23c6d4c618f95c8a43121086c_2_1"></span>
+                        </fieldset>
+                    </div>
+                </div>
+
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>Какие флаги есть у сегмента TCP?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_b572298260ae4b69aeb2cb491f12c5b3_2_1">
+                        <fieldset aria-describedby="status_b572298260ae4b69aeb2cb491f12c5b3_2_1">
+
+                            <div class="field">
+                                <input type="checkbox" name="input_b572298260ae4b69aeb2cb491f12c5b3_2_1[]"
+                                    id="input_b572298260ae4b69aeb2cb491f12c5b3_2_1_choice_0"
+                                    class="field-input input-checkbox submitted" value="choice_0" checked="true"><label
+                                    id="b572298260ae4b69aeb2cb491f12c5b3_2_1-choice_0-label"
+                                    for="input_b572298260ae4b69aeb2cb491f12c5b3_2_1_choice_0"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_b572298260ae4b69aeb2cb491f12c5b3_2_1"> SYN
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_b572298260ae4b69aeb2cb491f12c5b3_2_1[]"
+                                    id="input_b572298260ae4b69aeb2cb491f12c5b3_2_1_choice_1"
+                                    class="field-input input-checkbox" value="choice_1"><label
+                                    id="b572298260ae4b69aeb2cb491f12c5b3_2_1-choice_1-label"
+                                    for="input_b572298260ae4b69aeb2cb491f12c5b3_2_1_choice_1"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_b572298260ae4b69aeb2cb491f12c5b3_2_1"> RPT
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_b572298260ae4b69aeb2cb491f12c5b3_2_1[]"
+                                    id="input_b572298260ae4b69aeb2cb491f12c5b3_2_1_choice_2"
+                                    class="field-input input-checkbox" value="choice_2"><label
+                                    id="b572298260ae4b69aeb2cb491f12c5b3_2_1-choice_2-label"
+                                    for="input_b572298260ae4b69aeb2cb491f12c5b3_2_1_choice_2"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_b572298260ae4b69aeb2cb491f12c5b3_2_1"> FAN
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_b572298260ae4b69aeb2cb491f12c5b3_2_1[]"
+                                    id="input_b572298260ae4b69aeb2cb491f12c5b3_2_1_choice_3"
+                                    class="field-input input-checkbox" value="choice_3"><label
+                                    id="b572298260ae4b69aeb2cb491f12c5b3_2_1-choice_3-label"
+                                    for="input_b572298260ae4b69aeb2cb491f12c5b3_2_1_choice_3"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_b572298260ae4b69aeb2cb491f12c5b3_2_1"> ASK
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_b572298260ae4b69aeb2cb491f12c5b3_2_1[]"
+                                    id="input_b572298260ae4b69aeb2cb491f12c5b3_2_1_choice_4"
+                                    class="field-input input-checkbox submitted" value="choice_4" checked="true"><label
+                                    id="b572298260ae4b69aeb2cb491f12c5b3_2_1-choice_4-label"
+                                    for="input_b572298260ae4b69aeb2cb491f12c5b3_2_1_choice_4"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_b572298260ae4b69aeb2cb491f12c5b3_2_1"> PSH
+                                </label>
+                            </div>
+                            <span id="answer_b572298260ae4b69aeb2cb491f12c5b3_2_1"></span>
+                        </fieldset>
+                    </div>
+                </div>
+
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>За что отвечает флаг SYN?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_b89b5521bb4948c482a8024518afd6ed_2_1">
+                        <fieldset aria-describedby="status_b89b5521bb4948c482a8024518afd6ed_2_1">
+
+                            <div class="field">
+                                <input type="radio" name="input_b89b5521bb4948c482a8024518afd6ed_2_1"
+                                    id="input_b89b5521bb4948c482a8024518afd6ed_2_1_choice_0"
+                                    class="field-input input-radio" value="choice_0"><label
+                                    id="b89b5521bb4948c482a8024518afd6ed_2_1-choice_0-label"
+                                    for="input_b89b5521bb4948c482a8024518afd6ed_2_1_choice_0"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_b89b5521bb4948c482a8024518afd6ed_2_1"> подтверждение
+                                    принятия сегмента
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_b89b5521bb4948c482a8024518afd6ed_2_1"
+                                    id="input_b89b5521bb4948c482a8024518afd6ed_2_1_choice_1"
+                                    class="field-input input-radio submitted" value="choice_1" checked="true"><label
+                                    id="b89b5521bb4948c482a8024518afd6ed_2_1-choice_1-label"
+                                    for="input_b89b5521bb4948c482a8024518afd6ed_2_1_choice_1"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_b89b5521bb4948c482a8024518afd6ed_2_1"> инициация соединения
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_b89b5521bb4948c482a8024518afd6ed_2_1"
+                                    id="input_b89b5521bb4948c482a8024518afd6ed_2_1_choice_2"
+                                    class="field-input input-radio" value="choice_2"><label
+                                    id="b89b5521bb4948c482a8024518afd6ed_2_1-choice_2-label"
+                                    for="input_b89b5521bb4948c482a8024518afd6ed_2_1_choice_2"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_b89b5521bb4948c482a8024518afd6ed_2_1"> принудительный
+                                    разрыв соединения
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_b89b5521bb4948c482a8024518afd6ed_2_1"
+                                    id="input_b89b5521bb4948c482a8024518afd6ed_2_1_choice_3"
+                                    class="field-input input-radio" value="choice_3"><label
+                                    id="b89b5521bb4948c482a8024518afd6ed_2_1-choice_3-label"
+                                    for="input_b89b5521bb4948c482a8024518afd6ed_2_1_choice_3"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_b89b5521bb4948c482a8024518afd6ed_2_1"> синхронизация двух
+                                    узлов
+                                </label>
+                            </div>
+                            <span id="answer_b89b5521bb4948c482a8024518afd6ed_2_1"></span>
+                        </fieldset>
+                    </div>
+                </div>
+
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>Какой режим работы есть в протоколе TCP?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_a13c2c862d46402d88596f2282b6ddc7_2_1">
+                        <fieldset aria-describedby="status_a13c2c862d46402d88596f2282b6ddc7_2_1">
+
+                            <div class="field">
+                                <input type="radio" name="input_a13c2c862d46402d88596f2282b6ddc7_2_1"
+                                    id="input_a13c2c862d46402d88596f2282b6ddc7_2_1_choice_0"
+                                    class="field-input input-radio" value="choice_0"><label
+                                    id="a13c2c862d46402d88596f2282b6ddc7_2_1-choice_0-label"
+                                    for="input_a13c2c862d46402d88596f2282b6ddc7_2_1_choice_0"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_a13c2c862d46402d88596f2282b6ddc7_2_1"> режим открытого окна
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_a13c2c862d46402d88596f2282b6ddc7_2_1"
+                                    id="input_a13c2c862d46402d88596f2282b6ddc7_2_1_choice_1"
+                                    class="field-input input-radio" value="choice_1"><label
+                                    id="a13c2c862d46402d88596f2282b6ddc7_2_1-choice_1-label"
+                                    for="input_a13c2c862d46402d88596f2282b6ddc7_2_1_choice_1"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_a13c2c862d46402d88596f2282b6ddc7_2_1"> режим скользящей
+                                    двери
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_a13c2c862d46402d88596f2282b6ddc7_2_1"
+                                    id="input_a13c2c862d46402d88596f2282b6ddc7_2_1_choice_2"
+                                    class="field-input input-radio" value="choice_2"><label
+                                    id="a13c2c862d46402d88596f2282b6ddc7_2_1-choice_2-label"
+                                    for="input_a13c2c862d46402d88596f2282b6ddc7_2_1_choice_2"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_a13c2c862d46402d88596f2282b6ddc7_2_1"> режим закрытой двери
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_a13c2c862d46402d88596f2282b6ddc7_2_1"
+                                    id="input_a13c2c862d46402d88596f2282b6ddc7_2_1_choice_3"
+                                    class="field-input input-radio submitted" value="choice_3" checked="true"><label
+                                    id="a13c2c862d46402d88596f2282b6ddc7_2_1-choice_3-label"
+                                    for="input_a13c2c862d46402d88596f2282b6ddc7_2_1_choice_3"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_a13c2c862d46402d88596f2282b6ddc7_2_1"> режим скользящего
+                                    окна
+                                </label>
+                            </div>
+                            <span id="answer_a13c2c862d46402d88596f2282b6ddc7_2_1"></span>
+                        </fieldset>
+                    </div>
+                </div>
+
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>Сколько флагов у пакета TCP?</p>
+                    <div id="formulaequationinput_07f927bc96684d7d8323b220a5678eca_2_1"
+                        class="inputtype formulaequationinput">
+                        <div class="correct">
+                            <input type="text" name="input_07f927bc96684d7d8323b220a5678eca_2_1"
+                                id="input_07f927bc96684d7d8323b220a5678eca_2_1"
+                                data-input-id="07f927bc96684d7d8323b220a5678eca_2_1" value="9"
+                                aria-describedby="status_07f927bc96684d7d8323b220a5678eca_2_1" size="20">
+                            <span class="trailing_text" id="trailing_text_07f927bc96684d7d8323b220a5678eca_2_1"></span>
+
+                            <p id="answer_07f927bc96684d7d8323b220a5678eca_2_1" class="answer"></p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

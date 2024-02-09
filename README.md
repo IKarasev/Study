@@ -109,4 +109,6 @@
 1. [Система управления ИБ](<./comp_net_sec/02_Сканирование сетей.md>)
 1. [Фреймворки контролей и процессов ИТ/ИБ](<./comp_net_sec/03_Защищенные виртуальные каналы связи.md.md>)
 
-
+Тесты:
+- Исходник: [./comp_net_sec/questions.html](./comp_net_sec/questions.html)
+- Как web: [https://raw.githack.com/IKarasev/Study/main/comp_net_sec/questions.html](https://raw.githack.com/IKarasev/Study/main/comp_net_sec/questions.html)
