@@ -98,3 +98,15 @@
 - Исходник: [./uib/questions.html](./uib/questions.html)
 - Как Web: [https://raw.githack.com/IKarasev/Study/main/uib/questions.html](https://raw.githack.com/IKarasev/Study/main/uib/questions.html)
 
+## 10. Безопасность вычислительных сетей
+
+Директория: [comp_net_sec](./comp_net_sec/)
+
+Силлабус: [./comp_net_sec/sillabus.md](./comp_net_sec/sillabus.md)
+
+Модули:
+1. [Архитектура организации и корпоративная архитектура безопасности](<./01 Арх орг и корп арх безоп.md>)
+1. [Система управления ИБ](<./02 Система управления ИБ.md>)
+1. [Фреймворки контролей и процессов ИТ/ИБ](<./03 Фреймворки контролей и процессов ИТ_ИБ.md>)
+
+
