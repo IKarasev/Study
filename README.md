@@ -98,7 +98,7 @@
 - Исходник: [./uib/questions.html](./uib/questions.html)
 - Как Web: [https://raw.githack.com/IKarasev/Study/main/uib/questions.html](https://raw.githack.com/IKarasev/Study/main/uib/questions.html)
 
-## 10. Безопасность вычислительных сетей
+## 10. ПЕНТЕСТ: Безопасность вычислительных сетей
 
 Директория: [comp_net_sec](./comp_net_sec/)
 
@@ -112,3 +112,10 @@
 Тесты:
 - Исходник: [./comp_net_sec/questions.html](./comp_net_sec/questions.html)
 - Как web: [https://raw.githack.com/IKarasev/Study/main/comp_net_sec/questions.html](https://raw.githack.com/IKarasev/Study/main/comp_net_sec/questions.html)
+
+## 11. КОМПЛАЕНС: Организационные меры защиты информации
+
+Директория: [info_sec_org_measures](./info_sec_org_measures/)
+
+Модули:
+1. [Элементы процесса менеджмента ИБ](./info_sec_org_measures/01_Элементы_процесса_менеджмента_ИБ.md)
