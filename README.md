@@ -119,3 +119,19 @@
 
 Модули:
 1. [Элементы процесса менеджмента ИБ](./info_sec_org_measures/01_Элементы_процесса_менеджмента_ИБ.md)
+
+## 12. Мониторинг, аналитика и оценка рисков ИБ
+
+
+Директория: [risk_maa](./risk_maa/)
+
+Силлабус: [./risk_maa/syllabus.md](./risk_maa/syllabus.md)
+
+Модули:
+1. [Основы информационной безопасности](./risk_maa/01_Основы_информационной_безопасности.md)
+1. [Аналитика информационной безопасности](./risk_maa/02_Аналитика_информационной_безопасности.md)
+1. [Мониторинг информационной безопасности и оценка рисков](./risk_maa/03_Мониторинг_информационной_безопасности_и_оценка_рисков.md)
+
+Тесты:
+- Исходник: [./risk_maa/questions.html](./risk_maa/questions.html)
+- Как web: [https://raw.githack.com/IKarasev/Study/main/risk_maa/questions.html](https://raw.githack.com/IKarasev/Study/main/risk_maa/questions.html)
