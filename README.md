@@ -98,28 +98,6 @@
 - Исходник: [./uib/questions.html](./uib/questions.html)
 - Как Web: [https://raw.githack.com/IKarasev/Study/main/uib/questions.html](https://raw.githack.com/IKarasev/Study/main/uib/questions.html)
 
-## 10. ПЕНТЕСТ: Безопасность вычислительных сетей
-
-Директория: [comp_net_sec](./comp_net_sec/)
-
-Силлабус: [./comp_net_sec/sillabus.md](./comp_net_sec/sillabus.md)
-
-Модули:
-1. [Атаки на стек протоколов TCP/IP](./comp_net_sec/01_Атаки_на_стек_протоколов_TCP-IP.md)
-1. [Сканирование сетей](./comp_net_sec/02_Сканирование_сетей.md)
-1. [Защищенные виртуальные каналы связи](./comp_net_sec/03_Защищенные_виртуальные_каналы_связи.md)
-
-Тесты:
-- Исходник: [./comp_net_sec/questions.html](./comp_net_sec/questions.html)
-- Как web: [https://raw.githack.com/IKarasev/Study/main/comp_net_sec/questions.html](https://raw.githack.com/IKarasev/Study/main/comp_net_sec/questions.html)
-
-## 11. КОМПЛАЕНС: Организационные меры защиты информации
-
-Директория: [info_sec_org_measures](./info_sec_org_measures/)
-
-Модули:
-1. [Элементы процесса менеджмента ИБ](./info_sec_org_measures/01_Элементы_процесса_менеджмента_ИБ.md)
-
 ## 12. Мониторинг, аналитика и оценка рисков ИБ
 
 
@@ -135,3 +113,46 @@
 Тесты:
 - Исходник: [./risk_maa/questions.html](./risk_maa/questions.html)
 - Как web: [https://raw.githack.com/IKarasev/Study/main/risk_maa/questions.html](https://raw.githack.com/IKarasev/Study/main/risk_maa/questions.html)
+
+## Пентест
+
+### 10. Безопасность вычислительных сетей
+
+Директория: [comp_net_sec](./comp_net_sec/)
+
+Силлабус: [./comp_net_sec/sillabus.md](./comp_net_sec/sillabus.md)
+
+Модули:
+1. [Атаки на стек протоколов TCP/IP](./comp_net_sec/01_Атаки_на_стек_протоколов_TCP-IP.md)
+1. [Сканирование сетей](./comp_net_sec/02_Сканирование_сетей.md)
+1. [Защищенные виртуальные каналы связи](./comp_net_sec/03_Защищенные_виртуальные_каналы_связи.md)
+
+Тесты:
+- Исходник: [./comp_net_sec/questions.html](./comp_net_sec/questions.html)
+- Как web: [https://raw.githack.com/IKarasev/Study/main/comp_net_sec/questions.html](https://raw.githack.com/IKarasev/Study/main/comp_net_sec/questions.html)
+
+### 13. Выявление уязвимостей
+
+Директория: [./vuln_det/](./vuln_det/)
+
+Силлабус: [./vuln_det/sillabus.md](./vuln_det/sillabus.md)
+
+Модули:
+1. [Введение в уязвимости](./vuln_det/01_Введение_в_уязвимости.md)
+1. [Введение в сканирование на уязвимости. Сетевые сканирования](./vuln_det/02_Введ_всканирование_на_уязвимости_Сетевые_сканирования.md)
+1. [Сканирование приложений на уязвимости](./vuln_det/03_Сканирование_приложений_на_уязвимости.md)
+
+Тесты:
+- Исходник: [./vuln_det/questions.html](./vuln_det/questions.html)
+- Как web: [https://raw.githack.com/IKarasev/Study/main/vuln_det/questions.html](https://raw.githack.com/IKarasev/Study/main/vuln_det/questions.html)
+
+
+## Комплаенс
+
+### 11. Организационные меры защиты информации
+
+Директория: [info_sec_org_measures](./info_sec_org_measures/)
+
+Модули:
+1. [Элементы процесса менеджмента ИБ](./info_sec_org_measures/01_Элементы_процесса_менеджмента_ИБ.md)
+
