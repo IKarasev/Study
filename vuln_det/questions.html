@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Управление информационной безопасностью</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <style>
+        fieldset {
+            margin-bottom: 1rem;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        .wrapper {
+            width: 100%;
+            max-width: 1000px;
+            padding-left: 1rem;
+        }
+    </style>
+    <div class="wrapper">
+        <h2>Модуль 1. Введение в уязвимости</h2>
+        <div>
+            <fieldset aria-describedby="status_67ea042e271540738cfa30ae52937abe_2_1">
+                <legend id="67ea042e271540738cfa30ae52937abe_2_1-legend"
+                    class="response-fieldset-legend field-group-hd">Что такое уязвимость в контексте информационной
+                    безопасности?</legend>
+
+                <div class="field">
+                    <input type="radio" name="input_67ea042e271540738cfa30ae52937abe_2_1"
+                        id="input_67ea042e271540738cfa30ae52937abe_2_1_choice_0"
+                        class="field-input input-radio submitted" value="choice_0" checked="true"><label
+                        id="67ea042e271540738cfa30ae52937abe_2_1-choice_0-label"
+                        for="input_67ea042e271540738cfa30ae52937abe_2_1_choice_0"
+                        class="response-label field-label label-inline choicegroup_correct"
+                        aria-describedby="status_67ea042e271540738cfa30ae52937abe_2_1"> Слабое место в системе, которое
+                        может быть использовано для нарушения ее безопасности
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_67ea042e271540738cfa30ae52937abe_2_1"
+                        id="input_67ea042e271540738cfa30ae52937abe_2_1_choice_1" class="field-input input-radio"
+                        value="choice_1"><label id="67ea042e271540738cfa30ae52937abe_2_1-choice_1-label"
+                        for="input_67ea042e271540738cfa30ae52937abe_2_1_choice_1"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_67ea042e271540738cfa30ae52937abe_2_1"> Атака на систему
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_67ea042e271540738cfa30ae52937abe_2_1"
+                        id="input_67ea042e271540738cfa30ae52937abe_2_1_choice_2" class="field-input input-radio"
+                        value="choice_2"><label id="67ea042e271540738cfa30ae52937abe_2_1-choice_2-label"
+                        for="input_67ea042e271540738cfa30ae52937abe_2_1_choice_2"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_67ea042e271540738cfa30ae52937abe_2_1"> Защитная мера, применяемая для
+                        предотвращения атак на систему
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_67ea042e271540738cfa30ae52937abe_2_1"
+                        id="input_67ea042e271540738cfa30ae52937abe_2_1_choice_3" class="field-input input-radio"
+                        value="choice_3"><label id="67ea042e271540738cfa30ae52937abe_2_1-choice_3-label"
+                        for="input_67ea042e271540738cfa30ae52937abe_2_1_choice_3"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_67ea042e271540738cfa30ae52937abe_2_1"> Программа, используемая для
+                        атаки на систему
+                    </label>
+                </div>
+                <span id="answer_67ea042e271540738cfa30ae52937abe_2_1"></span>
+            </fieldset>
+
+            <fieldset aria-describedby="status_dd38834dd772418a84bc59ca823de343_2_1">
+                <legend id="dd38834dd772418a84bc59ca823de343_2_1-legend"
+                    class="response-fieldset-legend field-group-hd">Какие основные методики оценки уязвимости вы знаете?
+                </legend>
+
+                <div class="field">
+                    <input type="checkbox" name="input_dd38834dd772418a84bc59ca823de343_2_1[]"
+                        id="input_dd38834dd772418a84bc59ca823de343_2_1_choice_0" class="field-input input-checkbox"
+                        value="choice_0"><label id="dd38834dd772418a84bc59ca823de343_2_1-choice_0-label"
+                        for="input_dd38834dd772418a84bc59ca823de343_2_1_choice_0"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_dd38834dd772418a84bc59ca823de343_2_1"> Методики, основанные на
+                        экспертной оценке
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="checkbox" name="input_dd38834dd772418a84bc59ca823de343_2_1[]"
+                        id="input_dd38834dd772418a84bc59ca823de343_2_1_choice_1" class="field-input input-checkbox"
+                        value="choice_1"><label id="dd38834dd772418a84bc59ca823de343_2_1-choice_1-label"
+                        for="input_dd38834dd772418a84bc59ca823de343_2_1_choice_1"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_dd38834dd772418a84bc59ca823de343_2_1"> Методики, основанные на анализе
+                        последствий эксплуатации уязвимости
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="checkbox" name="input_dd38834dd772418a84bc59ca823de343_2_1[]"
+                        id="input_dd38834dd772418a84bc59ca823de343_2_1_choice_2" class="field-input input-checkbox"
+                        value="choice_2"><label id="dd38834dd772418a84bc59ca823de343_2_1-choice_2-label"
+                        for="input_dd38834dd772418a84bc59ca823de343_2_1_choice_2"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_dd38834dd772418a84bc59ca823de343_2_1"> Методики, основанные на анализе
+                        стоимости устранения уязвимости
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="checkbox" name="input_dd38834dd772418a84bc59ca823de343_2_1[]"
+                        id="input_dd38834dd772418a84bc59ca823de343_2_1_choice_3"
+                        class="field-input input-checkbox submitted" value="choice_3" checked="true"><label
+                        id="dd38834dd772418a84bc59ca823de343_2_1-choice_3-label"
+                        for="input_dd38834dd772418a84bc59ca823de343_2_1_choice_3"
+                        class="response-label field-label label-inline choicegroup_correct"
+                        aria-describedby="status_dd38834dd772418a84bc59ca823de343_2_1"> Все вышеуказанные
+                    </label>
+                </div>
+                <span id="answer_dd38834dd772418a84bc59ca823de343_2_1"></span>
+            </fieldset>
+
+            <fieldset aria-describedby="status_53298da22f3744d4960b976c7d77cc50_2_1">
+                <legend id="53298da22f3744d4960b976c7d77cc50_2_1-legend"
+                    class="response-fieldset-legend field-group-hd">Что такое CVSS?</legend>
+
+                <div class="field">
+                    <input type="radio" name="input_53298da22f3744d4960b976c7d77cc50_2_1"
+                        id="input_53298da22f3744d4960b976c7d77cc50_2_1_choice_0"
+                        class="field-input input-radio submitted" value="choice_0" checked="true"><label
+                        id="53298da22f3744d4960b976c7d77cc50_2_1-choice_0-label"
+                        for="input_53298da22f3744d4960b976c7d77cc50_2_1_choice_0"
+                        class="response-label field-label label-inline choicegroup_correct"
+                        aria-describedby="status_53298da22f3744d4960b976c7d77cc50_2_1"> Система оценки уязвимостей
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_53298da22f3744d4960b976c7d77cc50_2_1"
+                        id="input_53298da22f3744d4960b976c7d77cc50_2_1_choice_1" class="field-input input-radio"
+                        value="choice_1"><label id="53298da22f3744d4960b976c7d77cc50_2_1-choice_1-label"
+                        for="input_53298da22f3744d4960b976c7d77cc50_2_1_choice_1"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_53298da22f3744d4960b976c7d77cc50_2_1"> Система защиты от уязвимостей
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_53298da22f3744d4960b976c7d77cc50_2_1"
+                        id="input_53298da22f3744d4960b976c7d77cc50_2_1_choice_2" class="field-input input-radio"
+                        value="choice_2"><label id="53298da22f3744d4960b976c7d77cc50_2_1-choice_2-label"
+                        for="input_53298da22f3744d4960b976c7d77cc50_2_1_choice_2"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_53298da22f3744d4960b976c7d77cc50_2_1"> Система поиска уязвимостей
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_53298da22f3744d4960b976c7d77cc50_2_1"
+                        id="input_53298da22f3744d4960b976c7d77cc50_2_1_choice_3" class="field-input input-radio"
+                        value="choice_3"><label id="53298da22f3744d4960b976c7d77cc50_2_1-choice_3-label"
+                        for="input_53298da22f3744d4960b976c7d77cc50_2_1_choice_3"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_53298da22f3744d4960b976c7d77cc50_2_1"> Система устранения уязвимостей
+                    </label>
+                </div>
+                <span id="answer_53298da22f3744d4960b976c7d77cc50_2_1"></span>
+            </fieldset>
+
+            <fieldset aria-describedby="status_edc79f4344dd42309a49916a3a9b946d_2_1">
+                <legend id="edc79f4344dd42309a49916a3a9b946d_2_1-legend"
+                    class="response-fieldset-legend field-group-hd">Процесс использования уязвимости злоумышленником для
+                    получения несанкционированного доступа к системе или приложению — это:</legend>
+
+                <div class="field">
+                    <input type="radio" name="input_edc79f4344dd42309a49916a3a9b946d_2_1"
+                        id="input_edc79f4344dd42309a49916a3a9b946d_2_1_choice_0"
+                        class="field-input input-radio submitted" value="choice_0" checked="true"><label
+                        id="edc79f4344dd42309a49916a3a9b946d_2_1-choice_0-label"
+                        for="input_edc79f4344dd42309a49916a3a9b946d_2_1_choice_0"
+                        class="response-label field-label label-inline choicegroup_correct"
+                        aria-describedby="status_edc79f4344dd42309a49916a3a9b946d_2_1"> Эксплуатация
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_edc79f4344dd42309a49916a3a9b946d_2_1"
+                        id="input_edc79f4344dd42309a49916a3a9b946d_2_1_choice_1" class="field-input input-radio"
+                        value="choice_1"><label id="edc79f4344dd42309a49916a3a9b946d_2_1-choice_1-label"
+                        for="input_edc79f4344dd42309a49916a3a9b946d_2_1_choice_1"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_edc79f4344dd42309a49916a3a9b946d_2_1"> Уязвимость
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_edc79f4344dd42309a49916a3a9b946d_2_1"
+                        id="input_edc79f4344dd42309a49916a3a9b946d_2_1_choice_2" class="field-input input-radio"
+                        value="choice_2"><label id="edc79f4344dd42309a49916a3a9b946d_2_1-choice_2-label"
+                        for="input_edc79f4344dd42309a49916a3a9b946d_2_1_choice_2"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_edc79f4344dd42309a49916a3a9b946d_2_1"> Эксплойт
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_edc79f4344dd42309a49916a3a9b946d_2_1"
+                        id="input_edc79f4344dd42309a49916a3a9b946d_2_1_choice_3" class="field-input input-radio"
+                        value="choice_3"><label id="edc79f4344dd42309a49916a3a9b946d_2_1-choice_3-label"
+                        for="input_edc79f4344dd42309a49916a3a9b946d_2_1_choice_3"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_edc79f4344dd42309a49916a3a9b946d_2_1"> Инъекция
+                    </label>
+                </div>
+                <span id="answer_edc79f4344dd42309a49916a3a9b946d_2_1"></span>
+            </fieldset>
+
+            <fieldset aria-describedby="status_ff26317ab25d4ad6990574192c139c89_2_1">
+                <legend id="ff26317ab25d4ad6990574192c139c89_2_1-legend"
+                    class="response-fieldset-legend field-group-hd">По способу эксплуатации можно выделить следующие
+                    виды уязвимостей:</legend>
+
+                <div class="field">
+                    <input type="checkbox" name="input_ff26317ab25d4ad6990574192c139c89_2_1[]"
+                        id="input_ff26317ab25d4ad6990574192c139c89_2_1_choice_0"
+                        class="field-input input-checkbox submitted" value="choice_0" checked="true"><label
+                        id="ff26317ab25d4ad6990574192c139c89_2_1-choice_0-label"
+                        for="input_ff26317ab25d4ad6990574192c139c89_2_1_choice_0"
+                        class="response-label field-label label-inline choicegroup_correct"
+                        aria-describedby="status_ff26317ab25d4ad6990574192c139c89_2_1"> Удаленные
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="checkbox" name="input_ff26317ab25d4ad6990574192c139c89_2_1[]"
+                        id="input_ff26317ab25d4ad6990574192c139c89_2_1_choice_1"
+                        class="field-input input-checkbox submitted" value="choice_1" checked="true"><label
+                        id="ff26317ab25d4ad6990574192c139c89_2_1-choice_1-label"
+                        for="input_ff26317ab25d4ad6990574192c139c89_2_1_choice_1"
+                        class="response-label field-label label-inline choicegroup_correct"
+                        aria-describedby="status_ff26317ab25d4ad6990574192c139c89_2_1"> Локальные
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="checkbox" name="input_ff26317ab25d4ad6990574192c139c89_2_1[]"
+                        id="input_ff26317ab25d4ad6990574192c139c89_2_1_choice_2" class="field-input input-checkbox"
+                        value="choice_2"><label id="ff26317ab25d4ad6990574192c139c89_2_1-choice_2-label"
+                        for="input_ff26317ab25d4ad6990574192c139c89_2_1_choice_2"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_ff26317ab25d4ad6990574192c139c89_2_1"> Проводные
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="checkbox" name="input_ff26317ab25d4ad6990574192c139c89_2_1[]"
+                        id="input_ff26317ab25d4ad6990574192c139c89_2_1_choice_3" class="field-input input-checkbox"
+                        value="choice_3"><label id="ff26317ab25d4ad6990574192c139c89_2_1-choice_3-label"
+                        for="input_ff26317ab25d4ad6990574192c139c89_2_1_choice_3"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_ff26317ab25d4ad6990574192c139c89_2_1"> Близкие
+                    </label>
+                </div>
+                <span id="answer_ff26317ab25d4ad6990574192c139c89_2_1"></span>
+            </fieldset>
+
+            <fieldset aria-describedby="status_b8aadb0c4fd1408eb06de212903bb743_2_1">
+                <legend id="b8aadb0c4fd1408eb06de212903bb743_2_1-legend"
+                    class="response-fieldset-legend field-group-hd">OWASP TOP 10 — это:</legend>
+
+                <div class="field">
+                    <input type="radio" name="input_b8aadb0c4fd1408eb06de212903bb743_2_1"
+                        id="input_b8aadb0c4fd1408eb06de212903bb743_2_1_choice_0"
+                        class="field-input input-radio submitted" value="choice_0" checked="true"><label
+                        id="b8aadb0c4fd1408eb06de212903bb743_2_1-choice_0-label"
+                        for="input_b8aadb0c4fd1408eb06de212903bb743_2_1_choice_0"
+                        class="response-label field-label label-inline choicegroup_correct"
+                        aria-describedby="status_b8aadb0c4fd1408eb06de212903bb743_2_1"> Список наиболее критичных рисков
+                        безопасности
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_b8aadb0c4fd1408eb06de212903bb743_2_1"
+                        id="input_b8aadb0c4fd1408eb06de212903bb743_2_1_choice_1" class="field-input input-radio"
+                        value="choice_1"><label id="b8aadb0c4fd1408eb06de212903bb743_2_1-choice_1-label"
+                        for="input_b8aadb0c4fd1408eb06de212903bb743_2_1_choice_1"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_b8aadb0c4fd1408eb06de212903bb743_2_1"> Сканер для детектирования
+                        уязвимостей веб-приложений
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_b8aadb0c4fd1408eb06de212903bb743_2_1"
+                        id="input_b8aadb0c4fd1408eb06de212903bb743_2_1_choice_2" class="field-input input-radio"
+                        value="choice_2"><label id="b8aadb0c4fd1408eb06de212903bb743_2_1-choice_2-label"
+                        for="input_b8aadb0c4fd1408eb06de212903bb743_2_1_choice_2"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_b8aadb0c4fd1408eb06de212903bb743_2_1"> Методика оценки критичности
+                        уязвимостей
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_b8aadb0c4fd1408eb06de212903bb743_2_1"
+                        id="input_b8aadb0c4fd1408eb06de212903bb743_2_1_choice_3" class="field-input input-radio"
+                        value="choice_3"><label id="b8aadb0c4fd1408eb06de212903bb743_2_1-choice_3-label"
+                        for="input_b8aadb0c4fd1408eb06de212903bb743_2_1_choice_3"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_b8aadb0c4fd1408eb06de212903bb743_2_1"> Набор правил детектирования
+                        уязвимостей
+                    </label>
+                </div>
+                <span id="answer_b8aadb0c4fd1408eb06de212903bb743_2_1"></span>
+            </fieldset>
+
+            <fieldset aria-describedby="status_2858eb2dfaa847878c7f09f0c6047d93_2_1">
+                <legend id="2858eb2dfaa847878c7f09f0c6047d93_2_1-legend"
+                    class="response-fieldset-legend field-group-hd">Что не входит в оценку степени критичности
+                    уязвимости?</legend>
+
+                <div class="field">
+                    <input type="checkbox" name="input_2858eb2dfaa847878c7f09f0c6047d93_2_1[]"
+                        id="input_2858eb2dfaa847878c7f09f0c6047d93_2_1_choice_0"
+                        class="field-input input-checkbox submitted" value="choice_0" checked="true"><label
+                        id="2858eb2dfaa847878c7f09f0c6047d93_2_1-choice_0-label"
+                        for="input_2858eb2dfaa847878c7f09f0c6047d93_2_1_choice_0"
+                        class="response-label field-label label-inline choicegroup_correct"
+                        aria-describedby="status_2858eb2dfaa847878c7f09f0c6047d93_2_1"> Квалификация хакера
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="checkbox" name="input_2858eb2dfaa847878c7f09f0c6047d93_2_1[]"
+                        id="input_2858eb2dfaa847878c7f09f0c6047d93_2_1_choice_1" class="field-input input-checkbox"
+                        value="choice_1"><label id="2858eb2dfaa847878c7f09f0c6047d93_2_1-choice_1-label"
+                        for="input_2858eb2dfaa847878c7f09f0c6047d93_2_1_choice_1"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_2858eb2dfaa847878c7f09f0c6047d93_2_1"> Способ эксплуатации уязвимости
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="checkbox" name="input_2858eb2dfaa847878c7f09f0c6047d93_2_1[]"
+                        id="input_2858eb2dfaa847878c7f09f0c6047d93_2_1_choice_2" class="field-input input-checkbox"
+                        value="choice_2"><label id="2858eb2dfaa847878c7f09f0c6047d93_2_1-choice_2-label"
+                        for="input_2858eb2dfaa847878c7f09f0c6047d93_2_1_choice_2"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_2858eb2dfaa847878c7f09f0c6047d93_2_1"> Влияние уязвимости на систему
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="checkbox" name="input_2858eb2dfaa847878c7f09f0c6047d93_2_1[]"
+                        id="input_2858eb2dfaa847878c7f09f0c6047d93_2_1_choice_3" class="field-input input-checkbox"
+                        value="choice_3"><label id="2858eb2dfaa847878c7f09f0c6047d93_2_1-choice_3-label"
+                        for="input_2858eb2dfaa847878c7f09f0c6047d93_2_1_choice_3"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_2858eb2dfaa847878c7f09f0c6047d93_2_1"> Особенности системы, в которой
+                        найдена уязвимость
+                    </label>
+                </div>
+                <span id="answer_2858eb2dfaa847878c7f09f0c6047d93_2_1"></span>
+            </fieldset>
+
+            <fieldset aria-describedby="status_992bd9d3392d42c69aa1a27fb364eee0_2_1">
+                <legend id="992bd9d3392d42c69aa1a27fb364eee0_2_1-legend"
+                    class="response-fieldset-legend field-group-hd">Что включает в себя отчет об уязвимости?</legend>
+
+                <div class="field">
+                    <input type="radio" name="input_992bd9d3392d42c69aa1a27fb364eee0_2_1"
+                        id="input_992bd9d3392d42c69aa1a27fb364eee0_2_1_choice_0"
+                        class="field-input input-radio submitted" value="choice_0" checked="true"><label
+                        id="992bd9d3392d42c69aa1a27fb364eee0_2_1-choice_0-label"
+                        for="input_992bd9d3392d42c69aa1a27fb364eee0_2_1_choice_0"
+                        class="response-label field-label label-inline choicegroup_correct"
+                        aria-describedby="status_992bd9d3392d42c69aa1a27fb364eee0_2_1"> Описание уязвимости, ее
+                        критичность, возможные последствия ее эксплуатации и рекомендации по устранению
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_992bd9d3392d42c69aa1a27fb364eee0_2_1"
+                        id="input_992bd9d3392d42c69aa1a27fb364eee0_2_1_choice_1" class="field-input input-radio"
+                        value="choice_1"><label id="992bd9d3392d42c69aa1a27fb364eee0_2_1-choice_1-label"
+                        for="input_992bd9d3392d42c69aa1a27fb364eee0_2_1_choice_1"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_992bd9d3392d42c69aa1a27fb364eee0_2_1"> Только описание уязвимости и ее
+                        критичность
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_992bd9d3392d42c69aa1a27fb364eee0_2_1"
+                        id="input_992bd9d3392d42c69aa1a27fb364eee0_2_1_choice_2" class="field-input input-radio"
+                        value="choice_2"><label id="992bd9d3392d42c69aa1a27fb364eee0_2_1-choice_2-label"
+                        for="input_992bd9d3392d42c69aa1a27fb364eee0_2_1_choice_2"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_992bd9d3392d42c69aa1a27fb364eee0_2_1"> Только описание уязвимости и
+                        возможные последствия ее эксплуатации
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_992bd9d3392d42c69aa1a27fb364eee0_2_1"
+                        id="input_992bd9d3392d42c69aa1a27fb364eee0_2_1_choice_3" class="field-input input-radio"
+                        value="choice_3"><label id="992bd9d3392d42c69aa1a27fb364eee0_2_1-choice_3-label"
+                        for="input_992bd9d3392d42c69aa1a27fb364eee0_2_1_choice_3"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_992bd9d3392d42c69aa1a27fb364eee0_2_1"> Только описание уязвимости и
+                        рекомендации по ее устранению
+                    </label>
+                </div>
+                <span id="answer_992bd9d3392d42c69aa1a27fb364eee0_2_1"></span>
+            </fieldset>
+
+            <fieldset aria-describedby="status_4e84e1d9b669451c819b754b90e54389_2_1">
+                <legend id="4e84e1d9b669451c819b754b90e54389_2_1-legend"
+                    class="response-fieldset-legend field-group-hd">В системе обнаружены две уязвимости. Уязвимость A
+                    имеет базовую оценку CVSS 9.8 и позволяет удаленно выполнить произвольный код без необходимости
+                    аутентификации пользователя. Уязвимость B имеет базовую оценку CVSS 5.4 и позволяет локальному
+                    пользователю повысить свои привилегии в системе. Какая из уязвимостей считается более критичной?
+                </legend>
+
+                <div class="field">
+                    <input type="radio" name="input_4e84e1d9b669451c819b754b90e54389_2_1"
+                        id="input_4e84e1d9b669451c819b754b90e54389_2_1_choice_0"
+                        class="field-input input-radio submitted" value="choice_0" checked="true"><label
+                        id="4e84e1d9b669451c819b754b90e54389_2_1-choice_0-label"
+                        for="input_4e84e1d9b669451c819b754b90e54389_2_1_choice_0"
+                        class="response-label field-label label-inline choicegroup_correct"
+                        aria-describedby="status_4e84e1d9b669451c819b754b90e54389_2_1"> Уязвимость A, потому что она
+                        позволяет удаленное выполнение кода и имеет высокую базовую оценку CVSS
+
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_4e84e1d9b669451c819b754b90e54389_2_1"
+                        id="input_4e84e1d9b669451c819b754b90e54389_2_1_choice_1" class="field-input input-radio"
+                        value="choice_1"><label id="4e84e1d9b669451c819b754b90e54389_2_1-choice_1-label"
+                        for="input_4e84e1d9b669451c819b754b90e54389_2_1_choice_1"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_4e84e1d9b669451c819b754b90e54389_2_1"> Уязвимость B, потому что она
+                        позволяет повышение привилегий и может быть использована для полного контроля над системой
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_4e84e1d9b669451c819b754b90e54389_2_1"
+                        id="input_4e84e1d9b669451c819b754b90e54389_2_1_choice_2" class="field-input input-radio"
+                        value="choice_2"><label id="4e84e1d9b669451c819b754b90e54389_2_1-choice_2-label"
+                        for="input_4e84e1d9b669451c819b754b90e54389_2_1_choice_2"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_4e84e1d9b669451c819b754b90e54389_2_1"> Обе уязвимости одинаково
+                        критичны
+                    </label>
+                </div>
+
+                <div class="field">
+                    <input type="radio" name="input_4e84e1d9b669451c819b754b90e54389_2_1"
+                        id="input_4e84e1d9b669451c819b754b90e54389_2_1_choice_3" class="field-input input-radio"
+                        value="choice_3"><label id="4e84e1d9b669451c819b754b90e54389_2_1-choice_3-label"
+                        for="input_4e84e1d9b669451c819b754b90e54389_2_1_choice_3"
+                        class="response-label field-label label-inline"
+                        aria-describedby="status_4e84e1d9b669451c819b754b90e54389_2_1"> Невозможно определить без
+                        дополнительной информации
+                    </label>
+                </div>
+                <span id="answer_4e84e1d9b669451c819b754b90e54389_2_1"></span>
+            </fieldset>
+        </div> <!-- Модуль 1 конец -->
+
+    </div>
+</body>
+
+</html>
