@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Управление информационной безопасностью</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <style>
+        fieldset {
+            margin-bottom: 1rem;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        .wrapper {
+            width: 100%;
+            max-width: 1000px;
+            padding-left: 1rem;
+        }
+
+        .wrapper-problem-response {
+            border: 2px solid #888;
+            border-radius: 5px;
+            padding: 4px;
+            margin-top: 4px;
+        }
+    </style>
+    <div class="wrapper">
+        <h2>Модуль 1. Основные подходы к построению защищенных информационных систем. Введение в разработку защищенного
+            программного обеспечения</h2>
+        <div>
+            <h3>Основные понятия в области построения защищенных информационных систем</h3>
+            <div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>Вы собираетесь начать разработку собственного клиента для работы с системой управления базами
+                        данныхНа что вы должны ориентироваться с точки зрения информационной безопасности: на требования
+                        для программного обеспечения (ПО), программного средства (ПС) или информационной системы (ИС)?
+                    </p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_75a8bb4e53214351b275ddcb7d047f05_2_1">
+                        <fieldset aria-describedby="status_75a8bb4e53214351b275ddcb7d047f05_2_1">
+
+                            <div class="field">
+                                <input type="radio" name="input_75a8bb4e53214351b275ddcb7d047f05_2_1"
+                                    id="input_75a8bb4e53214351b275ddcb7d047f05_2_1_choice_0"
+                                    class="field-input input-radio" value="choice_0"><label
+                                    id="75a8bb4e53214351b275ddcb7d047f05_2_1-choice_0-label"
+                                    for="input_75a8bb4e53214351b275ddcb7d047f05_2_1_choice_0"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_75a8bb4e53214351b275ddcb7d047f05_2_1"> ПО
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_75a8bb4e53214351b275ddcb7d047f05_2_1"
+                                    id="input_75a8bb4e53214351b275ddcb7d047f05_2_1_choice_1"
+                                    class="field-input input-radio" value="choice_1"><label
+                                    id="75a8bb4e53214351b275ddcb7d047f05_2_1-choice_1-label"
+                                    for="input_75a8bb4e53214351b275ddcb7d047f05_2_1_choice_1"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_75a8bb4e53214351b275ddcb7d047f05_2_1"> ПС
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_75a8bb4e53214351b275ddcb7d047f05_2_1"
+                                    id="input_75a8bb4e53214351b275ddcb7d047f05_2_1_choice_2"
+                                    class="field-input input-radio submitted" value="choice_2" checked="true"><label
+                                    id="75a8bb4e53214351b275ddcb7d047f05_2_1-choice_2-label"
+                                    for="input_75a8bb4e53214351b275ddcb7d047f05_2_1_choice_2"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_75a8bb4e53214351b275ddcb7d047f05_2_1"> ИС
+                                </label>
+                            </div>
+                            <span id="answer_75a8bb4e53214351b275ddcb7d047f05_2_1"></span>
+                        </fieldset>
+                        <div class="indicator-container">
+
+
+                            <span class="status correct" id="status_75a8bb4e53214351b275ddcb7d047f05_2_1"
+                                data-tooltip="Это правильный ответ.">
+                                <span class="sr">верно</span><span class="status-icon" aria-hidden="true"></span>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>Выполнение в Microsoft Exchange Server функции «Почта, адресованная пользователю, который не
+                        найден, или которому посылающий не имеет разрешения посылать почту, не будет доставлена»
+                        относится к механизму обеспечения:</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_efdd4930b727466e8f9e0dac8788f1f7_2_1">
+                        <fieldset aria-describedby="status_efdd4930b727466e8f9e0dac8788f1f7_2_1">
+
+                            <div class="field">
+                                <input type="radio" name="input_efdd4930b727466e8f9e0dac8788f1f7_2_1"
+                                    id="input_efdd4930b727466e8f9e0dac8788f1f7_2_1_choice_0"
+                                    class="field-input input-radio submitted" value="choice_0" checked="true"><label
+                                    id="efdd4930b727466e8f9e0dac8788f1f7_2_1-choice_0-label"
+                                    for="input_efdd4930b727466e8f9e0dac8788f1f7_2_1_choice_0"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_efdd4930b727466e8f9e0dac8788f1f7_2_1"> Безопасности в
+                                    архитектуре
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_efdd4930b727466e8f9e0dac8788f1f7_2_1"
+                                    id="input_efdd4930b727466e8f9e0dac8788f1f7_2_1_choice_1"
+                                    class="field-input input-radio" value="choice_1"><label
+                                    id="efdd4930b727466e8f9e0dac8788f1f7_2_1-choice_1-label"
+                                    for="input_efdd4930b727466e8f9e0dac8788f1f7_2_1_choice_1"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_efdd4930b727466e8f9e0dac8788f1f7_2_1"> Безопасности по
+                                    умолчанию
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_efdd4930b727466e8f9e0dac8788f1f7_2_1"
+                                    id="input_efdd4930b727466e8f9e0dac8788f1f7_2_1_choice_2"
+                                    class="field-input input-radio" value="choice_2"><label
+                                    id="efdd4930b727466e8f9e0dac8788f1f7_2_1-choice_2-label"
+                                    for="input_efdd4930b727466e8f9e0dac8788f1f7_2_1_choice_2"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_efdd4930b727466e8f9e0dac8788f1f7_2_1"> Безопасности в
+                                    работе
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_efdd4930b727466e8f9e0dac8788f1f7_2_1"
+                                    id="input_efdd4930b727466e8f9e0dac8788f1f7_2_1_choice_3"
+                                    class="field-input input-radio" value="choice_3"><label
+                                    id="efdd4930b727466e8f9e0dac8788f1f7_2_1-choice_3-label"
+                                    for="input_efdd4930b727466e8f9e0dac8788f1f7_2_1_choice_3"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_efdd4930b727466e8f9e0dac8788f1f7_2_1"> Сотрудничества
+                                </label>
+                            </div>
+                            <span id="answer_efdd4930b727466e8f9e0dac8788f1f7_2_1"></span>
+                        </fieldset>
+                        <div class="indicator-container">
+
+
+                            <span class="status correct" id="status_efdd4930b727466e8f9e0dac8788f1f7_2_1"
+                                data-tooltip="Это правильный ответ.">
+                                <span class="sr">верно</span><span class="status-icon" aria-hidden="true"></span>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>Какое из этих последствий реализации угроз будет наиболее критично для интернет-приложения «Почта
+                        России»?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_dd22d9ccbc544985b1b34d6c521da7cb_2_1">
+                        <fieldset aria-describedby="status_dd22d9ccbc544985b1b34d6c521da7cb_2_1">
+
+                            <div class="field">
+                                <input type="radio" name="input_dd22d9ccbc544985b1b34d6c521da7cb_2_1"
+                                    id="input_dd22d9ccbc544985b1b34d6c521da7cb_2_1_choice_0"
+                                    class="field-input input-radio" value="choice_0"><label
+                                    id="dd22d9ccbc544985b1b34d6c521da7cb_2_1-choice_0-label"
+                                    for="input_dd22d9ccbc544985b1b34d6c521da7cb_2_1_choice_0"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_dd22d9ccbc544985b1b34d6c521da7cb_2_1"> Отказ в обслуживании
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_dd22d9ccbc544985b1b34d6c521da7cb_2_1"
+                                    id="input_dd22d9ccbc544985b1b34d6c521da7cb_2_1_choice_1"
+                                    class="field-input input-radio submitted" value="choice_1" checked="true"><label
+                                    id="dd22d9ccbc544985b1b34d6c521da7cb_2_1-choice_1-label"
+                                    for="input_dd22d9ccbc544985b1b34d6c521da7cb_2_1_choice_1"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_dd22d9ccbc544985b1b34d6c521da7cb_2_1"> Утечка исходного
+                                    кода приложения
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_dd22d9ccbc544985b1b34d6c521da7cb_2_1"
+                                    id="input_dd22d9ccbc544985b1b34d6c521da7cb_2_1_choice_2"
+                                    class="field-input input-radio" value="choice_2"><label
+                                    id="dd22d9ccbc544985b1b34d6c521da7cb_2_1-choice_2-label"
+                                    for="input_dd22d9ccbc544985b1b34d6c521da7cb_2_1_choice_2"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_dd22d9ccbc544985b1b34d6c521da7cb_2_1"> Несанкционированный
+                                    доступ к АРМ оператора почтового отделения
+                                </label>
+                            </div>
+                            <span id="answer_dd22d9ccbc544985b1b34d6c521da7cb_2_1"></span>
+                        </fieldset>
+                        <div class="indicator-container">
+
+
+                            <span class="status correct" id="status_dd22d9ccbc544985b1b34d6c521da7cb_2_1"
+                                data-tooltip="Это правильный ответ.">
+                                <span class="sr">верно</span><span class="status-icon" aria-hidden="true"></span>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Слайд 2 КОНЕЦ -->
+            <h3>3/7 Современные тенденции в разработке ПО</h3>
+            <div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>Вам поступила задача написать мобильную адаптацию уже существующего сайта для онлайн-знакомств. К
+                        какой категории продуктов будет относиться это мобильное приложение?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_ac0c57d87cb040a988ae097d698c520e_2_1">
+                        <fieldset aria-describedby="status_ac0c57d87cb040a988ae097d698c520e_2_1">
+
+                            <div class="field">
+                                <input type="radio" name="input_ac0c57d87cb040a988ae097d698c520e_2_1"
+                                    id="input_ac0c57d87cb040a988ae097d698c520e_2_1_choice_0"
+                                    class="field-input input-radio" value="choice_0"><label
+                                    id="ac0c57d87cb040a988ae097d698c520e_2_1-choice_0-label"
+                                    for="input_ac0c57d87cb040a988ae097d698c520e_2_1_choice_0"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_ac0c57d87cb040a988ae097d698c520e_2_1"> Программное
+                                    обеспечение
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_ac0c57d87cb040a988ae097d698c520e_2_1"
+                                    id="input_ac0c57d87cb040a988ae097d698c520e_2_1_choice_1"
+                                    class="field-input input-radio" value="choice_1"><label
+                                    id="ac0c57d87cb040a988ae097d698c520e_2_1-choice_1-label"
+                                    for="input_ac0c57d87cb040a988ae097d698c520e_2_1_choice_1"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_ac0c57d87cb040a988ae097d698c520e_2_1"> Программное средство
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_ac0c57d87cb040a988ae097d698c520e_2_1"
+                                    id="input_ac0c57d87cb040a988ae097d698c520e_2_1_choice_2"
+                                    class="field-input input-radio submitted" value="choice_2" checked="true"><label
+                                    id="ac0c57d87cb040a988ae097d698c520e_2_1-choice_2-label"
+                                    for="input_ac0c57d87cb040a988ae097d698c520e_2_1_choice_2"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_ac0c57d87cb040a988ae097d698c520e_2_1"> Программный продукт
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_ac0c57d87cb040a988ae097d698c520e_2_1"
+                                    id="input_ac0c57d87cb040a988ae097d698c520e_2_1_choice_3"
+                                    class="field-input input-radio" value="choice_3"><label
+                                    id="ac0c57d87cb040a988ae097d698c520e_2_1-choice_3-label"
+                                    for="input_ac0c57d87cb040a988ae097d698c520e_2_1_choice_3"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_ac0c57d87cb040a988ae097d698c520e_2_1"> Информационная
+                                    система
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_ac0c57d87cb040a988ae097d698c520e_2_1"
+                                    id="input_ac0c57d87cb040a988ae097d698c520e_2_1_choice_4"
+                                    class="field-input input-radio" value="choice_4"><label
+                                    id="ac0c57d87cb040a988ae097d698c520e_2_1-choice_4-label"
+                                    for="input_ac0c57d87cb040a988ae097d698c520e_2_1_choice_4"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_ac0c57d87cb040a988ae097d698c520e_2_1"> Автоматизированная
+                                    информационная система
+
+                                </label>
+                            </div>
+                            <span id="answer_ac0c57d87cb040a988ae097d698c520e_2_1"></span>
+                        </fieldset>
+                        <div class="indicator-container">
+
+
+                            <span class="status correct" id="status_ac0c57d87cb040a988ae097d698c520e_2_1"
+                                data-tooltip="Это правильный ответ.">
+                                <span class="sr">верно</span><span class="status-icon" aria-hidden="true"></span>
+                            </span>
+
+                        </div>
+                        <span class="message" aria-describedby="ac0c57d87cb040a988ae097d698c520e_2_1-legend"
+                            tabindex="-1">
+                            <div class="feedback-hint-correct">
+                                <div class="explanation-title">Ответ</div><span class="hint-label">Верно: </span>
+                                <div class="hint-text">Здесь вы разрабатываете и передаете в использование программное
+                                    обеспечение на основании заключенного с заказчиком договора. С точки зрения ГОСТов
+                                    это программный продукт.</div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>Существует модель адаптивной безопасности PPDR, которая состоит из четырех сегментов жизненного
+                        цикла: Predict, Prevent, Detect, Respond (предсказывай, предотвращай, детектируй, отвечай). Эта
+                        модель является разновидностью подхода многоуровневой защиты, который мы подробно обсудим в
+                        следующем уроке. Изучите ее подробнее, это не займет много времени, и ответьте на вопрос: на
+                        каких стадиях этой модели могут применяются принципы Agile?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_f95df1f70aab4574aa76320e0c851cf4_2_1">
+                        <fieldset aria-describedby="status_f95df1f70aab4574aa76320e0c851cf4_2_1">
+
+                            <div class="field">
+                                <input type="checkbox" name="input_f95df1f70aab4574aa76320e0c851cf4_2_1[]"
+                                    id="input_f95df1f70aab4574aa76320e0c851cf4_2_1_choice_0"
+                                    class="field-input input-checkbox submitted" value="choice_0" checked="true"><label
+                                    id="f95df1f70aab4574aa76320e0c851cf4_2_1-choice_0-label"
+                                    for="input_f95df1f70aab4574aa76320e0c851cf4_2_1_choice_0"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_f95df1f70aab4574aa76320e0c851cf4_2_1"> Predict
+
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_f95df1f70aab4574aa76320e0c851cf4_2_1[]"
+                                    id="input_f95df1f70aab4574aa76320e0c851cf4_2_1_choice_1"
+                                    class="field-input input-checkbox submitted" value="choice_1" checked="true"><label
+                                    id="f95df1f70aab4574aa76320e0c851cf4_2_1-choice_1-label"
+                                    for="input_f95df1f70aab4574aa76320e0c851cf4_2_1_choice_1"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_f95df1f70aab4574aa76320e0c851cf4_2_1"> Prevent
+
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_f95df1f70aab4574aa76320e0c851cf4_2_1[]"
+                                    id="input_f95df1f70aab4574aa76320e0c851cf4_2_1_choice_2"
+                                    class="field-input input-checkbox" value="choice_2"><label
+                                    id="f95df1f70aab4574aa76320e0c851cf4_2_1-choice_2-label"
+                                    for="input_f95df1f70aab4574aa76320e0c851cf4_2_1_choice_2"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_f95df1f70aab4574aa76320e0c851cf4_2_1"> Detect
+
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_f95df1f70aab4574aa76320e0c851cf4_2_1[]"
+                                    id="input_f95df1f70aab4574aa76320e0c851cf4_2_1_choice_3"
+                                    class="field-input input-checkbox" value="choice_3"><label
+                                    id="f95df1f70aab4574aa76320e0c851cf4_2_1-choice_3-label"
+                                    for="input_f95df1f70aab4574aa76320e0c851cf4_2_1_choice_3"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_f95df1f70aab4574aa76320e0c851cf4_2_1"> Respond
+
+
+                                </label>
+                            </div>
+                            <span id="answer_f95df1f70aab4574aa76320e0c851cf4_2_1"></span>
+                        </fieldset>
+                        <div class="indicator-container">
+
+
+                            <span class="status correct" id="status_f95df1f70aab4574aa76320e0c851cf4_2_1"
+                                data-tooltip="Это правильный ответ.">
+                                <span class="sr">верно</span><span class="status-icon" aria-hidden="true"></span>
+                            </span>
+
+                        </div>
+                        <span class="message" aria-describedby="f95df1f70aab4574aa76320e0c851cf4_2_1-legend"
+                            tabindex="-1">
+                            <div class="feedback-hint-correct">
+                                <div class="explanation-title">Ответ</div><span class="hint-label">Верно: </span>
+                                <div class="feedback-hint-multi">
+                                    <div class="hint-text">Agile в этом подходе может применяться только на стадиях
+                                        Predict и Prevent. Цели этих этапов — стратегическое планирование, оценка рисков
+                                        и выработка способа их решения.</div>
+                                    <div class="hint-text">Agile в этом подходе может применяться только на стадиях
+                                        Predict и Prevent. Цели этих этапов — стратегическое планирование, оценка рисков
+                                        и выработка способа их решения.</div>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>Представьте, что вы устроились специалистом по безопасности в компанию, которая придерживается
+                        идеологии Agile. На какой итерации стоит начать внедрять меры по обеспечению безопасности?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_01d7211883744c519ebcb962c4bc67a2_2_1">
+                        <fieldset aria-describedby="status_01d7211883744c519ebcb962c4bc67a2_2_1">
+
+                            <div class="field">
+                                <input type="radio" name="input_01d7211883744c519ebcb962c4bc67a2_2_1"
+                                    id="input_01d7211883744c519ebcb962c4bc67a2_2_1_choice_0"
+                                    class="field-input input-radio submitted" value="choice_0" checked="true"><label
+                                    id="01d7211883744c519ebcb962c4bc67a2_2_1-choice_0-label"
+                                    for="input_01d7211883744c519ebcb962c4bc67a2_2_1_choice_0"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_01d7211883744c519ebcb962c4bc67a2_2_1"> На этапе анализа
+                                    потребностей
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_01d7211883744c519ebcb962c4bc67a2_2_1"
+                                    id="input_01d7211883744c519ebcb962c4bc67a2_2_1_choice_1"
+                                    class="field-input input-radio" value="choice_1"><label
+                                    id="01d7211883744c519ebcb962c4bc67a2_2_1-choice_1-label"
+                                    for="input_01d7211883744c519ebcb962c4bc67a2_2_1_choice_1"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_01d7211883744c519ebcb962c4bc67a2_2_1"> На этапе разработки
+                                    продукта
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_01d7211883744c519ebcb962c4bc67a2_2_1"
+                                    id="input_01d7211883744c519ebcb962c4bc67a2_2_1_choice_2"
+                                    class="field-input input-radio" value="choice_2"><label
+                                    id="01d7211883744c519ebcb962c4bc67a2_2_1-choice_2-label"
+                                    for="input_01d7211883744c519ebcb962c4bc67a2_2_1_choice_2"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_01d7211883744c519ebcb962c4bc67a2_2_1"> На этапе
+                                    тестирования ПО
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_01d7211883744c519ebcb962c4bc67a2_2_1"
+                                    id="input_01d7211883744c519ebcb962c4bc67a2_2_1_choice_3"
+                                    class="field-input input-radio" value="choice_3"><label
+                                    id="01d7211883744c519ebcb962c4bc67a2_2_1-choice_3-label"
+                                    for="input_01d7211883744c519ebcb962c4bc67a2_2_1_choice_3"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_01d7211883744c519ebcb962c4bc67a2_2_1"> На этапе
+                                    формирования итерации
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_01d7211883744c519ebcb962c4bc67a2_2_1"
+                                    id="input_01d7211883744c519ebcb962c4bc67a2_2_1_choice_4"
+                                    class="field-input input-radio" value="choice_4"><label
+                                    id="01d7211883744c519ebcb962c4bc67a2_2_1-choice_4-label"
+                                    for="input_01d7211883744c519ebcb962c4bc67a2_2_1_choice_4"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_01d7211883744c519ebcb962c4bc67a2_2_1"> На этапе обратной
+                                    связи
+                                </label>
+                            </div>
+                            <span id="answer_01d7211883744c519ebcb962c4bc67a2_2_1"></span>
+                        </fieldset>
+                        <div class="indicator-container">
+
+
+                            <span class="status correct" id="status_01d7211883744c519ebcb962c4bc67a2_2_1"
+                                data-tooltip="Это правильный ответ.">
+                                <span class="sr">верно</span><span class="status-icon" aria-hidden="true"></span>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Слайд 3 КОНЕЦ -->
+            <h3>4/7 Defense In-Depth, или эшелонированная защита</h3>
+            <div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>В кибербезопасности идеология Agile описывается в методологии Agile Cybersecurity Action Plan.
+                        Как вы думаете, подход эшелонированной защиты — это аналог гибкой кибербезопасности или
+                        противопоставление?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_0f680a36694c473abc797f3f4ae547fb_2_1">
+                        <fieldset aria-describedby="status_0f680a36694c473abc797f3f4ae547fb_2_1">
+
+                            <div class="field">
+                                <input type="radio" name="input_0f680a36694c473abc797f3f4ae547fb_2_1"
+                                    id="input_0f680a36694c473abc797f3f4ae547fb_2_1_choice_0"
+                                    class="field-input input-radio" value="choice_0"><label
+                                    id="0f680a36694c473abc797f3f4ae547fb_2_1-choice_0-label"
+                                    for="input_0f680a36694c473abc797f3f4ae547fb_2_1_choice_0"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_0f680a36694c473abc797f3f4ae547fb_2_1"> Аналог
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_0f680a36694c473abc797f3f4ae547fb_2_1"
+                                    id="input_0f680a36694c473abc797f3f4ae547fb_2_1_choice_1"
+                                    class="field-input input-radio submitted" value="choice_1" checked="true"><label
+                                    id="0f680a36694c473abc797f3f4ae547fb_2_1-choice_1-label"
+                                    for="input_0f680a36694c473abc797f3f4ae547fb_2_1_choice_1"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_0f680a36694c473abc797f3f4ae547fb_2_1"> Противопоставление
+
+                                </label>
+                            </div>
+                            <span id="answer_0f680a36694c473abc797f3f4ae547fb_2_1"></span>
+                        </fieldset>
+                        <div class="indicator-container">
+
+
+                            <span class="status correct" id="status_0f680a36694c473abc797f3f4ae547fb_2_1"
+                                data-tooltip="Это правильный ответ.">
+                                <span class="sr">верно</span><span class="status-icon" aria-hidden="true"></span>
+                            </span>
+
+                        </div>
+                        <span class="message" aria-describedby="0f680a36694c473abc797f3f4ae547fb_2_1-legend"
+                            tabindex="-1">
+                            <div class="feedback-hint-correct">
+                                <div class="explanation-title">Ответ</div><span class="hint-label">Верно: </span>
+                                <div class="hint-text">Модель гибкой безопасности противопоставляется модели Defense
+                                    In-Depth. Agile Cybersecurity Action Plan предназначен для максимально эффективного
+                                    перестроения модели защиты вслед за быстро меняющимся ландшафтом рисков и угроз, в
+                                    том числе — для выявления потенциальных проблем и недостатков до того, как они
+                                    превратятся в инциденты. Эшелонированный подход более устойчив и базируется на
+                                    модернизации защиты на основе конкретно случившейся «бреши»-инцидента в эшелоне.
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>На каком уровне модели эшелонированной защиты можно применять системы класса Endpoint Detection
+                        and Response?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_c9a389624d5a49b780f25b463d4f42ec_2_1">
+                        <fieldset aria-describedby="status_c9a389624d5a49b780f25b463d4f42ec_2_1">
+
+                            <div class="field">
+                                <input type="radio" name="input_c9a389624d5a49b780f25b463d4f42ec_2_1"
+                                    id="input_c9a389624d5a49b780f25b463d4f42ec_2_1_choice_0"
+                                    class="field-input input-radio" value="choice_0"><label
+                                    id="c9a389624d5a49b780f25b463d4f42ec_2_1-choice_0-label"
+                                    for="input_c9a389624d5a49b780f25b463d4f42ec_2_1_choice_0"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_c9a389624d5a49b780f25b463d4f42ec_2_1"> На уровне
+                                    организационных мер
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_c9a389624d5a49b780f25b463d4f42ec_2_1"
+                                    id="input_c9a389624d5a49b780f25b463d4f42ec_2_1_choice_1"
+                                    class="field-input input-radio" value="choice_1"><label
+                                    id="c9a389624d5a49b780f25b463d4f42ec_2_1-choice_1-label"
+                                    for="input_c9a389624d5a49b780f25b463d4f42ec_2_1_choice_1"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_c9a389624d5a49b780f25b463d4f42ec_2_1"> На уровне физической
+                                    защиты
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_c9a389624d5a49b780f25b463d4f42ec_2_1"
+                                    id="input_c9a389624d5a49b780f25b463d4f42ec_2_1_choice_2"
+                                    class="field-input input-radio" value="choice_2"><label
+                                    id="c9a389624d5a49b780f25b463d4f42ec_2_1-choice_2-label"
+                                    for="input_c9a389624d5a49b780f25b463d4f42ec_2_1_choice_2"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_c9a389624d5a49b780f25b463d4f42ec_2_1"> На уровне защиты
+                                    периметра
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_c9a389624d5a49b780f25b463d4f42ec_2_1"
+                                    id="input_c9a389624d5a49b780f25b463d4f42ec_2_1_choice_3"
+                                    class="field-input input-radio" value="choice_3"><label
+                                    id="c9a389624d5a49b780f25b463d4f42ec_2_1-choice_3-label"
+                                    for="input_c9a389624d5a49b780f25b463d4f42ec_2_1_choice_3"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_c9a389624d5a49b780f25b463d4f42ec_2_1"> На уровне защиты
+                                    внутренней сети
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_c9a389624d5a49b780f25b463d4f42ec_2_1"
+                                    id="input_c9a389624d5a49b780f25b463d4f42ec_2_1_choice_4"
+                                    class="field-input input-radio submitted" value="choice_4" checked="true"><label
+                                    id="c9a389624d5a49b780f25b463d4f42ec_2_1-choice_4-label"
+                                    for="input_c9a389624d5a49b780f25b463d4f42ec_2_1_choice_4"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_c9a389624d5a49b780f25b463d4f42ec_2_1"> На уровне защиты
+                                    узлов
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_c9a389624d5a49b780f25b463d4f42ec_2_1"
+                                    id="input_c9a389624d5a49b780f25b463d4f42ec_2_1_choice_5"
+                                    class="field-input input-radio" value="choice_5"><label
+                                    id="c9a389624d5a49b780f25b463d4f42ec_2_1-choice_5-label"
+                                    for="input_c9a389624d5a49b780f25b463d4f42ec_2_1_choice_5"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_c9a389624d5a49b780f25b463d4f42ec_2_1"> На уровне защиты
+                                    приложений
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_c9a389624d5a49b780f25b463d4f42ec_2_1"
+                                    id="input_c9a389624d5a49b780f25b463d4f42ec_2_1_choice_6"
+                                    class="field-input input-radio" value="choice_6"><label
+                                    id="c9a389624d5a49b780f25b463d4f42ec_2_1-choice_6-label"
+                                    for="input_c9a389624d5a49b780f25b463d4f42ec_2_1_choice_6"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_c9a389624d5a49b780f25b463d4f42ec_2_1"> На уровне защиты
+                                    данных
+
+                                </label>
+                            </div>
+                            <span id="answer_c9a389624d5a49b780f25b463d4f42ec_2_1"></span>
+                        </fieldset>
+                        <div class="indicator-container">
+
+
+                            <span class="status correct" id="status_c9a389624d5a49b780f25b463d4f42ec_2_1"
+                                data-tooltip="Это правильный ответ.">
+                                <span class="sr">верно</span><span class="status-icon" aria-hidden="true"></span>
+                            </span>
+
+                        </div>
+                        <span class="message" aria-describedby="c9a389624d5a49b780f25b463d4f42ec_2_1-legend"
+                            tabindex="-1">
+                            <div class="feedback-hint-correct">
+                                <div class="explanation-title">Ответ</div><span class="hint-label">Верно: </span>
+                                <div class="hint-text">Системы класса EDR предназначены для обнаружения и реагирования
+                                    на атаки на рабочие станции.</div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>К какому уровню будут относиться системы класса Isolation (виртуальные песочницы, ограничивающие
+                        доступ компонентам)?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_af06ff92b3cf445884d97a3735fca98c_2_1">
+                        <fieldset aria-describedby="status_af06ff92b3cf445884d97a3735fca98c_2_1">
+
+                            <div class="field">
+                                <input type="checkbox" name="input_af06ff92b3cf445884d97a3735fca98c_2_1[]"
+                                    id="input_af06ff92b3cf445884d97a3735fca98c_2_1_choice_0"
+                                    class="field-input input-checkbox" value="choice_0"><label
+                                    id="af06ff92b3cf445884d97a3735fca98c_2_1-choice_0-label"
+                                    for="input_af06ff92b3cf445884d97a3735fca98c_2_1_choice_0"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_af06ff92b3cf445884d97a3735fca98c_2_1"> К уровню
+                                    организационных мер
+
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_af06ff92b3cf445884d97a3735fca98c_2_1[]"
+                                    id="input_af06ff92b3cf445884d97a3735fca98c_2_1_choice_1"
+                                    class="field-input input-checkbox" value="choice_1"><label
+                                    id="af06ff92b3cf445884d97a3735fca98c_2_1-choice_1-label"
+                                    for="input_af06ff92b3cf445884d97a3735fca98c_2_1_choice_1"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_af06ff92b3cf445884d97a3735fca98c_2_1"> К уровню физической
+                                    защиты
+
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_af06ff92b3cf445884d97a3735fca98c_2_1[]"
+                                    id="input_af06ff92b3cf445884d97a3735fca98c_2_1_choice_2"
+                                    class="field-input input-checkbox" value="choice_2"><label
+                                    id="af06ff92b3cf445884d97a3735fca98c_2_1-choice_2-label"
+                                    for="input_af06ff92b3cf445884d97a3735fca98c_2_1_choice_2"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_af06ff92b3cf445884d97a3735fca98c_2_1"> К уровню защиты
+                                    периметра
+
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_af06ff92b3cf445884d97a3735fca98c_2_1[]"
+                                    id="input_af06ff92b3cf445884d97a3735fca98c_2_1_choice_3"
+                                    class="field-input input-checkbox" value="choice_3"><label
+                                    id="af06ff92b3cf445884d97a3735fca98c_2_1-choice_3-label"
+                                    for="input_af06ff92b3cf445884d97a3735fca98c_2_1_choice_3"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_af06ff92b3cf445884d97a3735fca98c_2_1"> К уровню защиты
+                                    внутренней сети
+
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_af06ff92b3cf445884d97a3735fca98c_2_1[]"
+                                    id="input_af06ff92b3cf445884d97a3735fca98c_2_1_choice_4"
+                                    class="field-input input-checkbox" value="choice_4"><label
+                                    id="af06ff92b3cf445884d97a3735fca98c_2_1-choice_4-label"
+                                    for="input_af06ff92b3cf445884d97a3735fca98c_2_1_choice_4"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_af06ff92b3cf445884d97a3735fca98c_2_1"> К уровню защиты
+                                    узлов
+
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_af06ff92b3cf445884d97a3735fca98c_2_1[]"
+                                    id="input_af06ff92b3cf445884d97a3735fca98c_2_1_choice_5"
+                                    class="field-input input-checkbox submitted" value="choice_5" checked="true"><label
+                                    id="af06ff92b3cf445884d97a3735fca98c_2_1-choice_5-label"
+                                    for="input_af06ff92b3cf445884d97a3735fca98c_2_1_choice_5"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_af06ff92b3cf445884d97a3735fca98c_2_1"> К уровню защиты
+                                    приложений
+
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_af06ff92b3cf445884d97a3735fca98c_2_1[]"
+                                    id="input_af06ff92b3cf445884d97a3735fca98c_2_1_choice_6"
+                                    class="field-input input-checkbox submitted" value="choice_6" checked="true"><label
+                                    id="af06ff92b3cf445884d97a3735fca98c_2_1-choice_6-label"
+                                    for="input_af06ff92b3cf445884d97a3735fca98c_2_1_choice_6"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_af06ff92b3cf445884d97a3735fca98c_2_1"> К уровню защиты
+                                    данных
+
+
+                                </label>
+                            </div>
+                            <span id="answer_af06ff92b3cf445884d97a3735fca98c_2_1"></span>
+                        </fieldset>
+                        <div class="indicator-container">
+
+
+                            <span class="status correct" id="status_af06ff92b3cf445884d97a3735fca98c_2_1"
+                                data-tooltip="Это правильный ответ.">
+                                <span class="sr">верно</span><span class="status-icon" aria-hidden="true"></span>
+                            </span>
+
+                        </div>
+                        <span class="message" aria-describedby="af06ff92b3cf445884d97a3735fca98c_2_1-legend"
+                            tabindex="-1">
+                            <div class="feedback-hint-correct">
+                                <div class="explanation-title">Ответ</div><span class="hint-label">Верно: </span>
+                                <div class="feedback-hint-multi">
+                                    <div class="hint-text">Такие системы можно использовать сразу на двух уровнях. Они
+                                        способны осуществлять контроль и управление потоками между приложениями и
+                                        файловой системой.</div>
+                                    <div class="hint-text">Такие системы можно использовать сразу на двух уровнях. Они
+                                        способны осуществлять контроль и управление потоками между приложениями и
+                                        файловой системой.</div>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div><!-- Слайд 4 КОНЕЦ -->
+            <h3>5/7 Модель угроз для разработчиков</h3>
+            <div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>Какие сценарии реализации угрозы неправомерного шифрования информации (Ransomware) допустимы?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_eee4de162a384dc4a8b1ff1fe29db24d_2_1">
+                        <fieldset aria-describedby="status_eee4de162a384dc4a8b1ff1fe29db24d_2_1">
+
+                            <div class="field">
+                                <input type="checkbox" name="input_eee4de162a384dc4a8b1ff1fe29db24d_2_1[]"
+                                    id="input_eee4de162a384dc4a8b1ff1fe29db24d_2_1_choice_0"
+                                    class="field-input input-checkbox submitted" value="choice_0" checked="true"><label
+                                    id="eee4de162a384dc4a8b1ff1fe29db24d_2_1-choice_0-label"
+                                    for="input_eee4de162a384dc4a8b1ff1fe29db24d_2_1_choice_0"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_eee4de162a384dc4a8b1ff1fe29db24d_2_1"> Злоумышленник
+                                    разослал фишинг → Пользователь открыл фишинг → Пользователь ввел свои
+                                    авторизационные данные → Злоумышленник авторизовался в публичном сегменте сети →
+                                    Злоумышленник получил доступ до сервера → Злоумышленник запустил шифровальщик
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_eee4de162a384dc4a8b1ff1fe29db24d_2_1[]"
+                                    id="input_eee4de162a384dc4a8b1ff1fe29db24d_2_1_choice_1"
+                                    class="field-input input-checkbox submitted" value="choice_1" checked="true"><label
+                                    id="eee4de162a384dc4a8b1ff1fe29db24d_2_1-choice_1-label"
+                                    for="input_eee4de162a384dc4a8b1ff1fe29db24d_2_1_choice_1"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_eee4de162a384dc4a8b1ff1fe29db24d_2_1"> Злоумышленник
+                                    разослал фишинг → Администратор открыл фишинг с домашней рабочей станции →
+                                    Злоумышленник получил доступ к домашней рабочей станции администратора →
+                                    Злоумышленник обнаружил открытый удаленный сеанс до сервера → Злоумышленник получил
+                                    доступ к сессии → Злоумышленник запустил шифровальщик
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_eee4de162a384dc4a8b1ff1fe29db24d_2_1[]"
+                                    id="input_eee4de162a384dc4a8b1ff1fe29db24d_2_1_choice_2"
+                                    class="field-input input-checkbox submitted" value="choice_2" checked="true"><label
+                                    id="eee4de162a384dc4a8b1ff1fe29db24d_2_1-choice_2-label"
+                                    for="input_eee4de162a384dc4a8b1ff1fe29db24d_2_1_choice_2"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_eee4de162a384dc4a8b1ff1fe29db24d_2_1"> Злоумышленник создал
+                                    вредоносный сайт → Пользователь зашел на него с рабочей станции → На рабочую станцию
+                                    пользователя доставился скрипт → Злоумышленник получил доступ до рабочей станции
+                                    пользователя → Злоумышленник получил доступ к авторизационным данным пользователя →
+                                    Злоумышленник получил доступ к серверу → Злоумышленник запустил шифровальщик
+                                </label>
+                            </div>
+                            <span id="answer_eee4de162a384dc4a8b1ff1fe29db24d_2_1"></span>
+                        </fieldset>
+                        <div class="indicator-container">
+
+
+                            <span class="status correct" id="status_eee4de162a384dc4a8b1ff1fe29db24d_2_1"
+                                data-tooltip="Это правильный ответ.">
+                                <span class="sr">верно</span><span class="status-icon" aria-hidden="true"></span>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>Какое последствие несет угроза некорректного использования прозрачного прокси-сервера за счет
+                        плагинов браузера?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_62130c593d0e418ea767b6d3d0e60b21_2_1">
+                        <fieldset aria-describedby="status_62130c593d0e418ea767b6d3d0e60b21_2_1">
+
+                            <div class="field">
+                                <input type="radio" name="input_62130c593d0e418ea767b6d3d0e60b21_2_1"
+                                    id="input_62130c593d0e418ea767b6d3d0e60b21_2_1_choice_0"
+                                    class="field-input input-radio submitted" value="choice_0" checked="true"><label
+                                    id="62130c593d0e418ea767b6d3d0e60b21_2_1-choice_0-label"
+                                    for="input_62130c593d0e418ea767b6d3d0e60b21_2_1_choice_0"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_62130c593d0e418ea767b6d3d0e60b21_2_1"> Нарушение
+                                    конфиденциальности
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_62130c593d0e418ea767b6d3d0e60b21_2_1"
+                                    id="input_62130c593d0e418ea767b6d3d0e60b21_2_1_choice_1"
+                                    class="field-input input-radio" value="choice_1"><label
+                                    id="62130c593d0e418ea767b6d3d0e60b21_2_1-choice_1-label"
+                                    for="input_62130c593d0e418ea767b6d3d0e60b21_2_1_choice_1"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_62130c593d0e418ea767b6d3d0e60b21_2_1"> Нарушение
+                                    целостности
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="radio" name="input_62130c593d0e418ea767b6d3d0e60b21_2_1"
+                                    id="input_62130c593d0e418ea767b6d3d0e60b21_2_1_choice_2"
+                                    class="field-input input-radio" value="choice_2"><label
+                                    id="62130c593d0e418ea767b6d3d0e60b21_2_1-choice_2-label"
+                                    for="input_62130c593d0e418ea767b6d3d0e60b21_2_1_choice_2"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_62130c593d0e418ea767b6d3d0e60b21_2_1"> Нарушение
+                                    доступности
+                                </label>
+                            </div>
+                            <span id="answer_62130c593d0e418ea767b6d3d0e60b21_2_1"></span>
+                        </fieldset>
+                        <div class="indicator-container">
+
+
+                            <span class="status correct" id="status_62130c593d0e418ea767b6d3d0e60b21_2_1"
+                                data-tooltip="Это правильный ответ.">
+                                <span class="sr">верно</span><span class="status-icon" aria-hidden="true"></span>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                    <p>С какой угрозой по модели STRIDE можно соотнести УБИ.052: Угроза невозможности миграции образов
+                        виртуальных машин из-за несовместимости аппаратного и программного обеспечения?</p>
+                    <div class="choicegroup capa_inputtype" id="inputtype_85a715a516c34d729a71512f0404e27f_2_1">
+                        <fieldset aria-describedby="status_85a715a516c34d729a71512f0404e27f_2_1">
+
+                            <div class="field">
+                                <input type="checkbox" name="input_85a715a516c34d729a71512f0404e27f_2_1[]"
+                                    id="input_85a715a516c34d729a71512f0404e27f_2_1_choice_0"
+                                    class="field-input input-checkbox" value="choice_0"><label
+                                    id="85a715a516c34d729a71512f0404e27f_2_1-choice_0-label"
+                                    for="input_85a715a516c34d729a71512f0404e27f_2_1_choice_0"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_85a715a516c34d729a71512f0404e27f_2_1"> Spoofing of user
+                                    identity
+
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_85a715a516c34d729a71512f0404e27f_2_1[]"
+                                    id="input_85a715a516c34d729a71512f0404e27f_2_1_choice_1"
+                                    class="field-input input-checkbox submitted" value="choice_1" checked="true"><label
+                                    id="85a715a516c34d729a71512f0404e27f_2_1-choice_1-label"
+                                    for="input_85a715a516c34d729a71512f0404e27f_2_1_choice_1"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_85a715a516c34d729a71512f0404e27f_2_1"> Tampering
+
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_85a715a516c34d729a71512f0404e27f_2_1[]"
+                                    id="input_85a715a516c34d729a71512f0404e27f_2_1_choice_2"
+                                    class="field-input input-checkbox" value="choice_2"><label
+                                    id="85a715a516c34d729a71512f0404e27f_2_1-choice_2-label"
+                                    for="input_85a715a516c34d729a71512f0404e27f_2_1_choice_2"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_85a715a516c34d729a71512f0404e27f_2_1"> Repudiation
+
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_85a715a516c34d729a71512f0404e27f_2_1[]"
+                                    id="input_85a715a516c34d729a71512f0404e27f_2_1_choice_3"
+                                    class="field-input input-checkbox" value="choice_3"><label
+                                    id="85a715a516c34d729a71512f0404e27f_2_1-choice_3-label"
+                                    for="input_85a715a516c34d729a71512f0404e27f_2_1_choice_3"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_85a715a516c34d729a71512f0404e27f_2_1"> Information
+                                    disclosure
+
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_85a715a516c34d729a71512f0404e27f_2_1[]"
+                                    id="input_85a715a516c34d729a71512f0404e27f_2_1_choice_4"
+                                    class="field-input input-checkbox submitted" value="choice_4" checked="true"><label
+                                    id="85a715a516c34d729a71512f0404e27f_2_1-choice_4-label"
+                                    for="input_85a715a516c34d729a71512f0404e27f_2_1_choice_4"
+                                    class="response-label field-label label-inline choicegroup_correct"
+                                    aria-describedby="status_85a715a516c34d729a71512f0404e27f_2_1"> Denial of Service
+
+
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" name="input_85a715a516c34d729a71512f0404e27f_2_1[]"
+                                    id="input_85a715a516c34d729a71512f0404e27f_2_1_choice_5"
+                                    class="field-input input-checkbox" value="choice_5"><label
+                                    id="85a715a516c34d729a71512f0404e27f_2_1-choice_5-label"
+                                    for="input_85a715a516c34d729a71512f0404e27f_2_1_choice_5"
+                                    class="response-label field-label label-inline"
+                                    aria-describedby="status_85a715a516c34d729a71512f0404e27f_2_1"> Elevation of
+                                    privilege
+
+
+                                </label>
+                            </div>
+                            <span id="answer_85a715a516c34d729a71512f0404e27f_2_1"></span>
+                        </fieldset>
+                        <div class="indicator-container">
+
+
+                            <span class="status correct" id="status_85a715a516c34d729a71512f0404e27f_2_1"
+                                data-tooltip="Это правильный ответ.">
+                                <span class="sr">верно</span><span class="status-icon" aria-hidden="true"></span>
+                            </span>
+
+                        </div>
+                        <span class="message" aria-describedby="85a715a516c34d729a71512f0404e27f_2_1-legend"
+                            tabindex="-1">
+                            <div class="feedback-hint-correct">
+                                <div class="explanation-title">Ответ</div><span class="hint-label">Верно: </span>
+                                <div class="feedback-hint-multi">
+                                    <div class="hint-text">Для каждой угрозы по модели STRIDE определены свойства,
+                                        которые теряет информация после реализации этой угрозы: S — аутентичность, T —
+                                        целостность, R — недопустимость отказа, I — конфиденциальность, D — доступность,
+                                        E — повышение привилегий. По БДУ УБИ 52 нацелена на нарушение целостности и
+                                        доступности, что соответствует литерам T и D.</div>
+                                    <div class="hint-text">Для каждой угрозы по модели STRIDE определены свойства,
+                                        которые теряет информация после реализации этой угрозы: S — аутентичность, T —
+                                        целостность, R — недопустимость отказа, I — конфиденциальность, D — доступность,
+                                        E — повышение привилегий. По БДУ УБИ 52 нацелена на нарушение целостности и
+                                        доступности, что соответствует литерам T и D.</div>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+
+            </div> <!-- Слайд 5 КОНЕЦ -->
+        </div> <!-- Модуль 1: КОНЕЦ -->
+    </div>
+</body>
