@@ -134,7 +134,7 @@
 
 Тесты:
 - [./tech_build_sas/questions.html](./tech_build_sas/questions.html)
-- [Как html](https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/tech_faci_in_infsec/questions.html)
+- [Как html](https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/tech_build_sas/questions.html)
 
 ## Пентест
 
