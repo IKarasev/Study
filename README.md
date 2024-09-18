@@ -196,14 +196,14 @@
 
 ### 1. Компьютерная криминалистика
 
-Директория: [./edm_sec/](./edm_sec/)
+Директория: [./computer_forensics/](./computer_forensics/)
 
-Силлабус: [./edm_sec/sillabus.md](./edm_sec/sillabus.md)
+Силлабус: [./computer_forensics/sillabus.md](./computer_forensics/sillabus.md)
 
 Модули:
-1. [Основы компьютерной криминалистики](./edm_sec/01_Основы_кк.md)
-1. [Windows форензика](./edm_sec/02_Windows_форензика.md)
-1. [Linux форензика и автоматизация](./edm_sec/03_Linux_форензика_автоматизация.md)
+1. [Основы компьютерной криминалистики](./computer_forensics/01_Основы_кк.md)
+1. [Windows форензика](./computer_forensics/02_Windows_форензика.md)
+1. [Linux форензика и автоматизация](./computer_forensics/03_Linux_форензика_автоматизация.md)
 
 ## Пентест
 
