@@ -460,9 +460,12 @@ https://habr.com/ru/companies/f_a_c_c_t/articles/487516/
 
 ![alt text](./imgs/mod2_6_browser_hist.png)
 
+# Полезный софт
 
-
-
-
-
-
+- По событиям наибольшего интереса:<br>https://13cubed.s3.amazonaws.com/downloads/windows_event_log_cheat_sheet.pdf
+- chaisaw и sigma правила:<br>https://github.com/WithSecureLabs/chainsaw
+- RDP кэш:<br>https://github.com/ANSSI-FR/bmc-tools -- парсинг кеша в картиник<br>https://github.com/BSI-Bund/RdpCacheStitcher -- просмотор картинок 
+- FTK imager:<br>https://www.exterro.com/digital-forensics-software/ftk-imager
+- autospy:<br>https://www.autopsy.com/download/
+- evtx_dump.py:<br>https://github.com/williballenthin/python-evtx<br>Можно установить через команду sudo apt install python3-evtx 
+- Утилиты Зимермана (Работа с артефактами, парсинг mft и тд )<br>https://ericzimmerman.github.io/#!index.md<br>Установить можно через powershell скрипт Get-ZimmermanTools либо скачивать каждый файл по отдельности

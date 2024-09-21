@@ -205,6 +205,8 @@
 1. [Windows форензика](./computer_forensics/02_Windows_форензика.md)
 1. [Linux форензика и автоматизация](./computer_forensics/03_Linux_форензика_автоматизация.md)
 
+[Семинары](./computer_forensics/lec1.md)
+
 ## Пентест
 
 ### 1. Защита каналов связи
