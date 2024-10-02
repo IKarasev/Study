@@ -291,4 +291,20 @@ https://www.youtube.com/13cubed
     - Загрузить результаты bmc-tools<br>![alt text](./imgs/lec1_rdpcs1.png)
     - Пазл по сбору снимков экрана rdp сессии
 
+# 2. Linux Forensics (21.09.2024)
+
+## Планировщик заданий CRON
+
+- Пользовательские cron-задачи
+    - `/var/spool/cron/crontab/`
+- Системные cron-задачи
+    - `/etc/crontab`
+- Так же могут быть:
+    - `/etc/cron.hourly/`
+    - `/etc/cron.daily/`
+    - `/etc/cron.weekly/`
+    - `/etc/cron.monthly/`
+    - `/etc/cron.d/`
+
+
 
