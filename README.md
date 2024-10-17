@@ -258,4 +258,5 @@
 
 Тесты:
 - [./tech_counter_comp_attacks/questions.html](./tech_counter_comp_attacks/questions.html)
-- html: 
+- html: [https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/tech_counter_comp_attacks/questions.html](https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/tech_counter_comp_attacks/questions.html)
+
