@@ -219,7 +219,7 @@
 
 Тесты:
 - [./ai_is/questions.html](./ai_is/questions.html)
-- в html: 
+- в html: [https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/ai_is/questions.html](https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/ai_is/questions.html)
 
 ## Пентест
 
