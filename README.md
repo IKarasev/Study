@@ -209,7 +209,7 @@
 
 Тесты:
 - [./computer_forensics/questions.html](./computer_forensics/questions.html)
-- html: 
+- html: [https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/computer_forensics/questions.html](https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/computer_forensics/questions.html) 
 
 ### 2. Искусственный интеллект в ИБ
 
