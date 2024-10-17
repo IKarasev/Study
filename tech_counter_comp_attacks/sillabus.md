@@ -151,3 +151,8 @@
 - Skulkin O. Windows Forensics Cookbook M.: Packt Publishing, 2017. 274 c.
 - Ostrovskaya S., Skulkin O. Practical Memory Forensics, 2022. 304 c.
 - [Berba P. (2022, 7 февраля). Hunting for Persistence in Linux: System Generators](https://pberba.github.io/security/2022/02/07/linux-threat-hunting-for-persistence-systemd-generators/)
+
+## Тесты
+
+- [./questions.html](./questions.html)
+- html: 

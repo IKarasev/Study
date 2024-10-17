@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Технологии противодействия компьютерным атакам</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <style>
+        fieldset {
+            margin-bottom: 1rem;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        .wrapper {
+            width: 100%;
+            max-width: 1000px;
+            padding-left: 1rem;
+        }
+
+        .wrapper-problem-response {
+            max-width: 100%;
+            border: 2px solid #888;
+            border-radius: 5px;
+            padding: 4px;
+            margin-top: 4px;
+        }
+
+        .wrapper-problem-response p {
+            font-weight: bold;
+        }
+    </style>
+    <div class="wrapper">
+        <h2>Модуль 1. Основные принципы работы аналитика blue team</h2>
+        <div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Какого этапа нет в Cyber KillChain?</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_0c04496344564b18a9cf0eaf7b1f8819_2_1">
+                    <fieldset aria-describedby="status_0c04496344564b18a9cf0eaf7b1f8819_2_1">
+
+                        <div class="field">
+                            <input type="radio" name="input_0c04496344564b18a9cf0eaf7b1f8819_2_1"
+                                id="input_0c04496344564b18a9cf0eaf7b1f8819_2_1_choice_0" class="field-input input-radio"
+                                value="choice_0"><label id="0c04496344564b18a9cf0eaf7b1f8819_2_1-choice_0-label"
+                                for="input_0c04496344564b18a9cf0eaf7b1f8819_2_1_choice_0"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_0c04496344564b18a9cf0eaf7b1f8819_2_1"> Installation
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_0c04496344564b18a9cf0eaf7b1f8819_2_1"
+                                id="input_0c04496344564b18a9cf0eaf7b1f8819_2_1_choice_1"
+                                class="field-input input-radio submitted" value="choice_1" checked="true"><label
+                                id="0c04496344564b18a9cf0eaf7b1f8819_2_1-choice_1-label"
+                                for="input_0c04496344564b18a9cf0eaf7b1f8819_2_1_choice_1"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_0c04496344564b18a9cf0eaf7b1f8819_2_1"> Discovery
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_0c04496344564b18a9cf0eaf7b1f8819_2_1"
+                                id="input_0c04496344564b18a9cf0eaf7b1f8819_2_1_choice_2" class="field-input input-radio"
+                                value="choice_2"><label id="0c04496344564b18a9cf0eaf7b1f8819_2_1-choice_2-label"
+                                for="input_0c04496344564b18a9cf0eaf7b1f8819_2_1_choice_2"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_0c04496344564b18a9cf0eaf7b1f8819_2_1"> Reconnaissance
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_0c04496344564b18a9cf0eaf7b1f8819_2_1"
+                                id="input_0c04496344564b18a9cf0eaf7b1f8819_2_1_choice_3" class="field-input input-radio"
+                                value="choice_3"><label id="0c04496344564b18a9cf0eaf7b1f8819_2_1-choice_3-label"
+                                for="input_0c04496344564b18a9cf0eaf7b1f8819_2_1_choice_3"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_0c04496344564b18a9cf0eaf7b1f8819_2_1"> Delivery
+                            </label>
+                        </div>
+                        <span id="answer_0c04496344564b18a9cf0eaf7b1f8819_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Какую информацию можно получить при анализе Mitre Attack?</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_d26a9a2d68464f168d9a8bd565c3cfd4_2_1">
+                    <fieldset aria-describedby="status_d26a9a2d68464f168d9a8bd565c3cfd4_2_1">
+
+                        <div class="field">
+                            <input type="radio" name="input_d26a9a2d68464f168d9a8bd565c3cfd4_2_1"
+                                id="input_d26a9a2d68464f168d9a8bd565c3cfd4_2_1_choice_0" class="field-input input-radio"
+                                value="choice_0"><label id="d26a9a2d68464f168d9a8bd565c3cfd4_2_1-choice_0-label"
+                                for="input_d26a9a2d68464f168d9a8bd565c3cfd4_2_1_choice_0"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_d26a9a2d68464f168d9a8bd565c3cfd4_2_1"> О группах и их
+                                инструментах
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_d26a9a2d68464f168d9a8bd565c3cfd4_2_1"
+                                id="input_d26a9a2d68464f168d9a8bd565c3cfd4_2_1_choice_1" class="field-input input-radio"
+                                value="choice_1"><label id="d26a9a2d68464f168d9a8bd565c3cfd4_2_1-choice_1-label"
+                                for="input_d26a9a2d68464f168d9a8bd565c3cfd4_2_1_choice_1"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_d26a9a2d68464f168d9a8bd565c3cfd4_2_1"> Техники, тактики и
+                                процедуры, используемые атакующими
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_d26a9a2d68464f168d9a8bd565c3cfd4_2_1"
+                                id="input_d26a9a2d68464f168d9a8bd565c3cfd4_2_1_choice_2" class="field-input input-radio"
+                                value="choice_2"><label id="d26a9a2d68464f168d9a8bd565c3cfd4_2_1-choice_2-label"
+                                for="input_d26a9a2d68464f168d9a8bd565c3cfd4_2_1_choice_2"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_d26a9a2d68464f168d9a8bd565c3cfd4_2_1"> Техники, используемые
+                                для мобильных устройств
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_d26a9a2d68464f168d9a8bd565c3cfd4_2_1"
+                                id="input_d26a9a2d68464f168d9a8bd565c3cfd4_2_1_choice_3"
+                                class="field-input input-radio submitted" value="choice_3" checked="true"><label
+                                id="d26a9a2d68464f168d9a8bd565c3cfd4_2_1-choice_3-label"
+                                for="input_d26a9a2d68464f168d9a8bd565c3cfd4_2_1_choice_3"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_d26a9a2d68464f168d9a8bd565c3cfd4_2_1"> Всю вышеперечисленную
+                            </label>
+                        </div>
+                        <span id="answer_d26a9a2d68464f168d9a8bd565c3cfd4_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Какая техника лидирует в области первичного проникновения при целевых атаках?</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_7302d3be2d794cee8deacf07888b3ed5_2_1">
+                    <fieldset aria-describedby="status_7302d3be2d794cee8deacf07888b3ed5_2_1">
+
+                        <div class="field">
+                            <input type="radio" name="input_7302d3be2d794cee8deacf07888b3ed5_2_1"
+                                id="input_7302d3be2d794cee8deacf07888b3ed5_2_1_choice_0" class="field-input input-radio"
+                                value="choice_0"><label id="7302d3be2d794cee8deacf07888b3ed5_2_1-choice_0-label"
+                                for="input_7302d3be2d794cee8deacf07888b3ed5_2_1_choice_0"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_7302d3be2d794cee8deacf07888b3ed5_2_1"> РДП
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_7302d3be2d794cee8deacf07888b3ed5_2_1"
+                                id="input_7302d3be2d794cee8deacf07888b3ed5_2_1_choice_1"
+                                class="field-input input-radio submitted" value="choice_1" checked="true"><label
+                                id="7302d3be2d794cee8deacf07888b3ed5_2_1-choice_1-label"
+                                for="input_7302d3be2d794cee8deacf07888b3ed5_2_1_choice_1"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_7302d3be2d794cee8deacf07888b3ed5_2_1"> Фишинг
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_7302d3be2d794cee8deacf07888b3ed5_2_1"
+                                id="input_7302d3be2d794cee8deacf07888b3ed5_2_1_choice_2" class="field-input input-radio"
+                                value="choice_2"><label id="7302d3be2d794cee8deacf07888b3ed5_2_1-choice_2-label"
+                                for="input_7302d3be2d794cee8deacf07888b3ed5_2_1_choice_2"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_7302d3be2d794cee8deacf07888b3ed5_2_1"> Эксплуатация публично
+                                доступных приложений
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_7302d3be2d794cee8deacf07888b3ed5_2_1"
+                                id="input_7302d3be2d794cee8deacf07888b3ed5_2_1_choice_3" class="field-input input-radio"
+                                value="choice_3"><label id="7302d3be2d794cee8deacf07888b3ed5_2_1-choice_3-label"
+                                for="input_7302d3be2d794cee8deacf07888b3ed5_2_1_choice_3"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_7302d3be2d794cee8deacf07888b3ed5_2_1"> Supply Chain
+                            </label>
+                        </div>
+                        <span id="answer_7302d3be2d794cee8deacf07888b3ed5_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>В каком департаменте при идеальной ИБ-иерархии будет работать специалист, занимающийся
+                    киберразведкой?</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_d3122231dc5d464b9a8f1b999406b7d1_2_1">
+                    <fieldset aria-describedby="status_d3122231dc5d464b9a8f1b999406b7d1_2_1">
+
+                        <div class="field">
+                            <input type="radio" name="input_d3122231dc5d464b9a8f1b999406b7d1_2_1"
+                                id="input_d3122231dc5d464b9a8f1b999406b7d1_2_1_choice_0"
+                                class="field-input input-radio submitted" value="choice_0" checked="true"><label
+                                id="d3122231dc5d464b9a8f1b999406b7d1_2_1-choice_0-label"
+                                for="input_d3122231dc5d464b9a8f1b999406b7d1_2_1_choice_0"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_d3122231dc5d464b9a8f1b999406b7d1_2_1"> TI
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_d3122231dc5d464b9a8f1b999406b7d1_2_1"
+                                id="input_d3122231dc5d464b9a8f1b999406b7d1_2_1_choice_1" class="field-input input-radio"
+                                value="choice_1"><label id="d3122231dc5d464b9a8f1b999406b7d1_2_1-choice_1-label"
+                                for="input_d3122231dc5d464b9a8f1b999406b7d1_2_1_choice_1"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_d3122231dc5d464b9a8f1b999406b7d1_2_1"> DRP
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_d3122231dc5d464b9a8f1b999406b7d1_2_1"
+                                id="input_d3122231dc5d464b9a8f1b999406b7d1_2_1_choice_2" class="field-input input-radio"
+                                value="choice_2"><label id="d3122231dc5d464b9a8f1b999406b7d1_2_1-choice_2-label"
+                                for="input_d3122231dc5d464b9a8f1b999406b7d1_2_1_choice_2"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_d3122231dc5d464b9a8f1b999406b7d1_2_1"> SOC
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_d3122231dc5d464b9a8f1b999406b7d1_2_1"
+                                id="input_d3122231dc5d464b9a8f1b999406b7d1_2_1_choice_3" class="field-input input-radio"
+                                value="choice_3"><label id="d3122231dc5d464b9a8f1b999406b7d1_2_1-choice_3-label"
+                                for="input_d3122231dc5d464b9a8f1b999406b7d1_2_1_choice_3"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_d3122231dc5d464b9a8f1b999406b7d1_2_1"> DFIR
+                            </label>
+                        </div>
+                        <span id="answer_d3122231dc5d464b9a8f1b999406b7d1_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Что является основой детектирования?</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_dc72fdda4a2e43bc93586491e98512ab_2_1">
+                    <fieldset aria-describedby="status_dc72fdda4a2e43bc93586491e98512ab_2_1">
+
+                        <div class="field">
+                            <input type="radio" name="input_dc72fdda4a2e43bc93586491e98512ab_2_1"
+                                id="input_dc72fdda4a2e43bc93586491e98512ab_2_1_choice_0"
+                                class="field-input input-radio submitted" value="choice_0" checked="true"><label
+                                id="dc72fdda4a2e43bc93586491e98512ab_2_1-choice_0-label"
+                                for="input_dc72fdda4a2e43bc93586491e98512ab_2_1_choice_0"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_dc72fdda4a2e43bc93586491e98512ab_2_1"> Логирование
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_dc72fdda4a2e43bc93586491e98512ab_2_1"
+                                id="input_dc72fdda4a2e43bc93586491e98512ab_2_1_choice_1" class="field-input input-radio"
+                                value="choice_1"><label id="dc72fdda4a2e43bc93586491e98512ab_2_1-choice_1-label"
+                                for="input_dc72fdda4a2e43bc93586491e98512ab_2_1_choice_1"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_dc72fdda4a2e43bc93586491e98512ab_2_1"> Профессионализм
+                                работников
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_dc72fdda4a2e43bc93586491e98512ab_2_1"
+                                id="input_dc72fdda4a2e43bc93586491e98512ab_2_1_choice_2" class="field-input input-radio"
+                                value="choice_2"><label id="dc72fdda4a2e43bc93586491e98512ab_2_1-choice_2-label"
+                                for="input_dc72fdda4a2e43bc93586491e98512ab_2_1_choice_2"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_dc72fdda4a2e43bc93586491e98512ab_2_1"> Грамотные правила
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_dc72fdda4a2e43bc93586491e98512ab_2_1"
+                                id="input_dc72fdda4a2e43bc93586491e98512ab_2_1_choice_3" class="field-input input-radio"
+                                value="choice_3"><label id="dc72fdda4a2e43bc93586491e98512ab_2_1-choice_3-label"
+                                for="input_dc72fdda4a2e43bc93586491e98512ab_2_1_choice_3"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_dc72fdda4a2e43bc93586491e98512ab_2_1"> Настройки часового пояса
+                            </label>
+                        </div>
+                        <span id="answer_dc72fdda4a2e43bc93586491e98512ab_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Выберите идеальный вариант мониторинга.</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_0e931d11401a470d9ffb145fa7b9b543_2_1">
+                    <fieldset aria-describedby="status_0e931d11401a470d9ffb145fa7b9b543_2_1">
+
+                        <div class="field">
+                            <input type="radio" name="input_0e931d11401a470d9ffb145fa7b9b543_2_1"
+                                id="input_0e931d11401a470d9ffb145fa7b9b543_2_1_choice_0" class="field-input input-radio"
+                                value="choice_0"><label id="0e931d11401a470d9ffb145fa7b9b543_2_1-choice_0-label"
+                                for="input_0e931d11401a470d9ffb145fa7b9b543_2_1_choice_0"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_0e931d11401a470d9ffb145fa7b9b543_2_1"> Белые списки
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_0e931d11401a470d9ffb145fa7b9b543_2_1"
+                                id="input_0e931d11401a470d9ffb145fa7b9b543_2_1_choice_1"
+                                class="field-input input-radio submitted" value="choice_1" checked="true"><label
+                                id="0e931d11401a470d9ffb145fa7b9b543_2_1-choice_1-label"
+                                for="input_0e931d11401a470d9ffb145fa7b9b543_2_1_choice_1"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_0e931d11401a470d9ffb145fa7b9b543_2_1"> Гибридная система
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_0e931d11401a470d9ffb145fa7b9b543_2_1"
+                                id="input_0e931d11401a470d9ffb145fa7b9b543_2_1_choice_2" class="field-input input-radio"
+                                value="choice_2"><label id="0e931d11401a470d9ffb145fa7b9b543_2_1-choice_2-label"
+                                for="input_0e931d11401a470d9ffb145fa7b9b543_2_1_choice_2"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_0e931d11401a470d9ffb145fa7b9b543_2_1"> Черные списки
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_0e931d11401a470d9ffb145fa7b9b543_2_1"
+                                id="input_0e931d11401a470d9ffb145fa7b9b543_2_1_choice_3" class="field-input input-radio"
+                                value="choice_3"><label id="0e931d11401a470d9ffb145fa7b9b543_2_1-choice_3-label"
+                                for="input_0e931d11401a470d9ffb145fa7b9b543_2_1_choice_3"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_0e931d11401a470d9ffb145fa7b9b543_2_1"> Мониторинг критериев
+                            </label>
+                        </div>
+                        <span id="answer_0e931d11401a470d9ffb145fa7b9b543_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Какой язык позволяет универсально писать правила почти под все популярные SIEM?</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_f02b67243f7545a7ad4ad6de0644cc5d_2_1">
+                    <fieldset aria-describedby="status_f02b67243f7545a7ad4ad6de0644cc5d_2_1">
+
+                        <div class="field">
+                            <input type="radio" name="input_f02b67243f7545a7ad4ad6de0644cc5d_2_1"
+                                id="input_f02b67243f7545a7ad4ad6de0644cc5d_2_1_choice_0" class="field-input input-radio"
+                                value="choice_0"><label id="f02b67243f7545a7ad4ad6de0644cc5d_2_1-choice_0-label"
+                                for="input_f02b67243f7545a7ad4ad6de0644cc5d_2_1_choice_0"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_f02b67243f7545a7ad4ad6de0644cc5d_2_1"> C#
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_f02b67243f7545a7ad4ad6de0644cc5d_2_1"
+                                id="input_f02b67243f7545a7ad4ad6de0644cc5d_2_1_choice_1"
+                                class="field-input input-radio submitted" value="choice_1" checked="true"><label
+                                id="f02b67243f7545a7ad4ad6de0644cc5d_2_1-choice_1-label"
+                                for="input_f02b67243f7545a7ad4ad6de0644cc5d_2_1_choice_1"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_f02b67243f7545a7ad4ad6de0644cc5d_2_1"> SIGMA
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_f02b67243f7545a7ad4ad6de0644cc5d_2_1"
+                                id="input_f02b67243f7545a7ad4ad6de0644cc5d_2_1_choice_2" class="field-input input-radio"
+                                value="choice_2"><label id="f02b67243f7545a7ad4ad6de0644cc5d_2_1-choice_2-label"
+                                for="input_f02b67243f7545a7ad4ad6de0644cc5d_2_1_choice_2"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_f02b67243f7545a7ad4ad6de0644cc5d_2_1"> Suricata
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_f02b67243f7545a7ad4ad6de0644cc5d_2_1"
+                                id="input_f02b67243f7545a7ad4ad6de0644cc5d_2_1_choice_3" class="field-input input-radio"
+                                value="choice_3"><label id="f02b67243f7545a7ad4ad6de0644cc5d_2_1-choice_3-label"
+                                for="input_f02b67243f7545a7ad4ad6de0644cc5d_2_1_choice_3"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_f02b67243f7545a7ad4ad6de0644cc5d_2_1"> Russian
+                            </label>
+                        </div>
+                        <span id="answer_f02b67243f7545a7ad4ad6de0644cc5d_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Какое поле используется для размещения логического выражения при написании yara-правил?</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_cccf39187c484f5384e34d38040f102c_2_1">
+                    <fieldset aria-describedby="status_cccf39187c484f5384e34d38040f102c_2_1">
+
+                        <div class="field">
+                            <input type="radio" name="input_cccf39187c484f5384e34d38040f102c_2_1"
+                                id="input_cccf39187c484f5384e34d38040f102c_2_1_choice_0" class="field-input input-radio"
+                                value="choice_0"><label id="cccf39187c484f5384e34d38040f102c_2_1-choice_0-label"
+                                for="input_cccf39187c484f5384e34d38040f102c_2_1_choice_0"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_cccf39187c484f5384e34d38040f102c_2_1"> content
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_cccf39187c484f5384e34d38040f102c_2_1"
+                                id="input_cccf39187c484f5384e34d38040f102c_2_1_choice_1" class="field-input input-radio"
+                                value="choice_1"><label id="cccf39187c484f5384e34d38040f102c_2_1-choice_1-label"
+                                for="input_cccf39187c484f5384e34d38040f102c_2_1_choice_1"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_cccf39187c484f5384e34d38040f102c_2_1"> strings
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_cccf39187c484f5384e34d38040f102c_2_1"
+                                id="input_cccf39187c484f5384e34d38040f102c_2_1_choice_2" class="field-input input-radio"
+                                value="choice_2"><label id="cccf39187c484f5384e34d38040f102c_2_1-choice_2-label"
+                                for="input_cccf39187c484f5384e34d38040f102c_2_1_choice_2"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_cccf39187c484f5384e34d38040f102c_2_1"> meta
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_cccf39187c484f5384e34d38040f102c_2_1"
+                                id="input_cccf39187c484f5384e34d38040f102c_2_1_choice_3"
+                                class="field-input input-radio submitted" value="choice_3" checked="true"><label
+                                id="cccf39187c484f5384e34d38040f102c_2_1-choice_3-label"
+                                for="input_cccf39187c484f5384e34d38040f102c_2_1_choice_3"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_cccf39187c484f5384e34d38040f102c_2_1"> condition
+                            </label>
+                        </div>
+                        <span id="answer_cccf39187c484f5384e34d38040f102c_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Какого критерия определения хорошей гипотезы не существует? </p>
+                <div class="choicegroup capa_inputtype" id="inputtype_188790a493c14ca493a9a8ff7980657b_2_1">
+                    <fieldset aria-describedby="status_188790a493c14ca493a9a8ff7980657b_2_1">
+
+                        <div class="field">
+                            <input type="radio" name="input_188790a493c14ca493a9a8ff7980657b_2_1"
+                                id="input_188790a493c14ca493a9a8ff7980657b_2_1_choice_0" class="field-input input-radio"
+                                value="choice_0"><label id="188790a493c14ca493a9a8ff7980657b_2_1-choice_0-label"
+                                for="input_188790a493c14ca493a9a8ff7980657b_2_1_choice_0"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_188790a493c14ca493a9a8ff7980657b_2_1"> Проверяемая
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_188790a493c14ca493a9a8ff7980657b_2_1"
+                                id="input_188790a493c14ca493a9a8ff7980657b_2_1_choice_1" class="field-input input-radio"
+                                value="choice_1"><label id="188790a493c14ca493a9a8ff7980657b_2_1-choice_1-label"
+                                for="input_188790a493c14ca493a9a8ff7980657b_2_1_choice_1"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_188790a493c14ca493a9a8ff7980657b_2_1"> Дает новую информацию
+                                после проверки
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_188790a493c14ca493a9a8ff7980657b_2_1"
+                                id="input_188790a493c14ca493a9a8ff7980657b_2_1_choice_2"
+                                class="field-input input-radio submitted" value="choice_2" checked="true"><label
+                                id="188790a493c14ca493a9a8ff7980657b_2_1-choice_2-label"
+                                for="input_188790a493c14ca493a9a8ff7980657b_2_1_choice_2"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_188790a493c14ca493a9a8ff7980657b_2_1"> Экономически
+                                целесообразна
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_188790a493c14ca493a9a8ff7980657b_2_1"
+                                id="input_188790a493c14ca493a9a8ff7980657b_2_1_choice_3" class="field-input input-radio"
+                                value="choice_3"><label id="188790a493c14ca493a9a8ff7980657b_2_1-choice_3-label"
+                                for="input_188790a493c14ca493a9a8ff7980657b_2_1_choice_3"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_188790a493c14ca493a9a8ff7980657b_2_1"> Позволяет делать
+                                предсказания
+                            </label>
+                        </div>
+                        <span id="answer_188790a493c14ca493a9a8ff7980657b_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Что такое CTI?</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_53a2acb19c5a4b9a92432b0234e283d4_2_1">
+                    <fieldset aria-describedby="status_53a2acb19c5a4b9a92432b0234e283d4_2_1">
+
+                        <div class="field">
+                            <input type="radio" name="input_53a2acb19c5a4b9a92432b0234e283d4_2_1"
+                                id="input_53a2acb19c5a4b9a92432b0234e283d4_2_1_choice_0"
+                                class="field-input input-radio submitted" value="choice_0" checked="true"><label
+                                id="53a2acb19c5a4b9a92432b0234e283d4_2_1-choice_0-label"
+                                for="input_53a2acb19c5a4b9a92432b0234e283d4_2_1_choice_0"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_53a2acb19c5a4b9a92432b0234e283d4_2_1"> Коммерческое решение для
+                                получения информации от киберразведки какого-то вендора
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_53a2acb19c5a4b9a92432b0234e283d4_2_1"
+                                id="input_53a2acb19c5a4b9a92432b0234e283d4_2_1_choice_1" class="field-input input-radio"
+                                value="choice_1"><label id="53a2acb19c5a4b9a92432b0234e283d4_2_1-choice_1-label"
+                                for="input_53a2acb19c5a4b9a92432b0234e283d4_2_1_choice_1"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_53a2acb19c5a4b9a92432b0234e283d4_2_1"> Проверка системы
+                                заказчика на компрометацию
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_53a2acb19c5a4b9a92432b0234e283d4_2_1"
+                                id="input_53a2acb19c5a4b9a92432b0234e283d4_2_1_choice_2" class="field-input input-radio"
+                                value="choice_2"><label id="53a2acb19c5a4b9a92432b0234e283d4_2_1-choice_2-label"
+                                for="input_53a2acb19c5a4b9a92432b0234e283d4_2_1_choice_2"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_53a2acb19c5a4b9a92432b0234e283d4_2_1"> Осуществление
+                                мероприятий по защите бренда компании в цифровой сфере
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_53a2acb19c5a4b9a92432b0234e283d4_2_1"
+                                id="input_53a2acb19c5a4b9a92432b0234e283d4_2_1_choice_3" class="field-input input-radio"
+                                value="choice_3"><label id="53a2acb19c5a4b9a92432b0234e283d4_2_1-choice_3-label"
+                                for="input_53a2acb19c5a4b9a92432b0234e283d4_2_1_choice_3"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_53a2acb19c5a4b9a92432b0234e283d4_2_1"> Услуга проверки
+                                почтового сервиса
+                            </label>
+                        </div>
+                        <span id="answer_53a2acb19c5a4b9a92432b0234e283d4_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+        </div> <!-- Модуль 1: КОНЕЦ -->
+
+        <h2>Модуль 2. Компетенции аналитиков второй и третьей линии SOC</h2>
+        <div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Что такое Triage?</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_90d2da19caa94db486f8f431b753fce5_2_1">
+                    <fieldset aria-describedby="status_90d2da19caa94db486f8f431b753fce5_2_1">
+
+                        <div class="field">
+                            <input type="radio" name="input_90d2da19caa94db486f8f431b753fce5_2_1"
+                                id="input_90d2da19caa94db486f8f431b753fce5_2_1_choice_0" class="field-input input-radio"
+                                value="choice_0"><label id="90d2da19caa94db486f8f431b753fce5_2_1-choice_0-label"
+                                for="input_90d2da19caa94db486f8f431b753fce5_2_1_choice_0"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_90d2da19caa94db486f8f431b753fce5_2_1"> Процесс распределения
+                                задач между специалистами в команде так, чтобы ускорить расследование инцидентов
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_90d2da19caa94db486f8f431b753fce5_2_1"
+                                id="input_90d2da19caa94db486f8f431b753fce5_2_1_choice_1" class="field-input input-radio"
+                                value="choice_1"><label id="90d2da19caa94db486f8f431b753fce5_2_1-choice_1-label"
+                                for="input_90d2da19caa94db486f8f431b753fce5_2_1_choice_1"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_90d2da19caa94db486f8f431b753fce5_2_1"> Метод временного
+                                блокирования доступа к подозрительным файлам до завершения расследования
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_90d2da19caa94db486f8f431b753fce5_2_1"
+                                id="input_90d2da19caa94db486f8f431b753fce5_2_1_choice_2"
+                                class="field-input input-radio submitted" value="choice_2" checked="true"><label
+                                id="90d2da19caa94db486f8f431b753fce5_2_1-choice_2-label"
+                                for="input_90d2da19caa94db486f8f431b753fce5_2_1_choice_2"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_90d2da19caa94db486f8f431b753fce5_2_1"> Набор файлов и
+                                каталогов, которые выбираются специалистом или используемым инструментом и сохраняются в
+                                контейнер или архив
+                            </label>
+                        </div>
+                        <span id="answer_90d2da19caa94db486f8f431b753fce5_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Назовите основные источники артефактов в ОС Windows.</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_c72b21e7a19c49ab91028280361f3bb7_2_1">
+                    <fieldset aria-describedby="status_c72b21e7a19c49ab91028280361f3bb7_2_1">
+
+                        <div class="field">
+                            <input type="radio" name="input_c72b21e7a19c49ab91028280361f3bb7_2_1"
+                                id="input_c72b21e7a19c49ab91028280361f3bb7_2_1_choice_0" class="field-input input-radio"
+                                value="choice_0"><label id="c72b21e7a19c49ab91028280361f3bb7_2_1-choice_0-label"
+                                for="input_c72b21e7a19c49ab91028280361f3bb7_2_1_choice_0"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_c72b21e7a19c49ab91028280361f3bb7_2_1"> Антивирусные программы,
+                                файлы конфигурации, устройства ввода, драйверы сетевых адаптеров
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_c72b21e7a19c49ab91028280361f3bb7_2_1"
+                                id="input_c72b21e7a19c49ab91028280361f3bb7_2_1_choice_1" class="field-input input-radio"
+                                value="choice_1"><label id="c72b21e7a19c49ab91028280361f3bb7_2_1-choice_1-label"
+                                for="input_c72b21e7a19c49ab91028280361f3bb7_2_1_choice_1"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_c72b21e7a19c49ab91028280361f3bb7_2_1"> Системные темы, обои
+                                рабочего стола, иконки, шрифты
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_c72b21e7a19c49ab91028280361f3bb7_2_1"
+                                id="input_c72b21e7a19c49ab91028280361f3bb7_2_1_choice_2"
+                                class="field-input input-radio submitted" value="choice_2" checked="true"><label
+                                id="c72b21e7a19c49ab91028280361f3bb7_2_1-choice_2-label"
+                                for="input_c72b21e7a19c49ab91028280361f3bb7_2_1_choice_2"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_c72b21e7a19c49ab91028280361f3bb7_2_1"> Файловая система,
+                                реестр, журналы событий
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_c72b21e7a19c49ab91028280361f3bb7_2_1"
+                                id="input_c72b21e7a19c49ab91028280361f3bb7_2_1_choice_3" class="field-input input-radio"
+                                value="choice_3"><label id="c72b21e7a19c49ab91028280361f3bb7_2_1-choice_3-label"
+                                for="input_c72b21e7a19c49ab91028280361f3bb7_2_1_choice_3"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_c72b21e7a19c49ab91028280361f3bb7_2_1"> Браузеры, офисные
+                                приложения, игры, утилиты для очистки системы
+                            </label>
+                        </div>
+                        <span id="answer_c72b21e7a19c49ab91028280361f3bb7_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>В каком файле реестра хранятся следы запуска?</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_66fee66a6816410496d21155f092213e_2_1">
+                    <fieldset aria-describedby="status_66fee66a6816410496d21155f092213e_2_1">
+
+                        <div class="field">
+                            <input type="radio" name="input_66fee66a6816410496d21155f092213e_2_1"
+                                id="input_66fee66a6816410496d21155f092213e_2_1_choice_0" class="field-input input-radio"
+                                value="choice_0"><label id="66fee66a6816410496d21155f092213e_2_1-choice_0-label"
+                                for="input_66fee66a6816410496d21155f092213e_2_1_choice_0"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_66fee66a6816410496d21155f092213e_2_1"> SECURITY
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_66fee66a6816410496d21155f092213e_2_1"
+                                id="input_66fee66a6816410496d21155f092213e_2_1_choice_1"
+                                class="field-input input-radio submitted" value="choice_1" checked="true"><label
+                                id="66fee66a6816410496d21155f092213e_2_1-choice_1-label"
+                                for="input_66fee66a6816410496d21155f092213e_2_1_choice_1"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_66fee66a6816410496d21155f092213e_2_1"> NTUSER.DAT
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_66fee66a6816410496d21155f092213e_2_1"
+                                id="input_66fee66a6816410496d21155f092213e_2_1_choice_2" class="field-input input-radio"
+                                value="choice_2"><label id="66fee66a6816410496d21155f092213e_2_1-choice_2-label"
+                                for="input_66fee66a6816410496d21155f092213e_2_1_choice_2"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_66fee66a6816410496d21155f092213e_2_1"> SOFTWARE
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_66fee66a6816410496d21155f092213e_2_1"
+                                id="input_66fee66a6816410496d21155f092213e_2_1_choice_3" class="field-input input-radio"
+                                value="choice_3"><label id="66fee66a6816410496d21155f092213e_2_1-choice_3-label"
+                                for="input_66fee66a6816410496d21155f092213e_2_1_choice_3"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_66fee66a6816410496d21155f092213e_2_1"> SYSTEM.DAT
+                            </label>
+                        </div>
+                        <span id="answer_66fee66a6816410496d21155f092213e_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Что хранится в журнале событий System.evtx?</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_02dae44fdd68427e88f37c75e0eeb4bc_2_1">
+                    <fieldset aria-describedby="status_02dae44fdd68427e88f37c75e0eeb4bc_2_1">
+
+                        <div class="field">
+                            <input type="checkbox" name="input_02dae44fdd68427e88f37c75e0eeb4bc_2_1[]"
+                                id="input_02dae44fdd68427e88f37c75e0eeb4bc_2_1_choice_0"
+                                class="field-input input-checkbox submitted" value="choice_0" checked="true"><label
+                                id="02dae44fdd68427e88f37c75e0eeb4bc_2_1-choice_0-label"
+                                for="input_02dae44fdd68427e88f37c75e0eeb4bc_2_1_choice_0"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_02dae44fdd68427e88f37c75e0eeb4bc_2_1"> События планировщика
+                                задач
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="checkbox" name="input_02dae44fdd68427e88f37c75e0eeb4bc_2_1[]"
+                                id="input_02dae44fdd68427e88f37c75e0eeb4bc_2_1_choice_1"
+                                class="field-input input-checkbox submitted" value="choice_1" checked="true"><label
+                                id="02dae44fdd68427e88f37c75e0eeb4bc_2_1-choice_1-label"
+                                for="input_02dae44fdd68427e88f37c75e0eeb4bc_2_1_choice_1"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_02dae44fdd68427e88f37c75e0eeb4bc_2_1"> События диспетчера
+                                сеансов
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="checkbox" name="input_02dae44fdd68427e88f37c75e0eeb4bc_2_1[]"
+                                id="input_02dae44fdd68427e88f37c75e0eeb4bc_2_1_choice_2"
+                                class="field-input input-checkbox submitted" value="choice_2" checked="true"><label
+                                id="02dae44fdd68427e88f37c75e0eeb4bc_2_1-choice_2-label"
+                                for="input_02dae44fdd68427e88f37c75e0eeb4bc_2_1_choice_2"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_02dae44fdd68427e88f37c75e0eeb4bc_2_1"> События операционной
+                                системы и ее компонентов
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="checkbox" name="input_02dae44fdd68427e88f37c75e0eeb4bc_2_1[]"
+                                id="input_02dae44fdd68427e88f37c75e0eeb4bc_2_1_choice_3"
+                                class="field-input input-checkbox" value="choice_3"><label
+                                id="02dae44fdd68427e88f37c75e0eeb4bc_2_1-choice_3-label"
+                                for="input_02dae44fdd68427e88f37c75e0eeb4bc_2_1_choice_3"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_02dae44fdd68427e88f37c75e0eeb4bc_2_1"> События, связанные с
+                                безопасностью и указанные в политике аудита системы
+                            </label>
+                        </div>
+                        <span id="answer_02dae44fdd68427e88f37c75e0eeb4bc_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Что можно увидеть в разделе реестра Software?</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_d12755721737441bb7821e9249000130_2_1">
+                    <fieldset aria-describedby="status_d12755721737441bb7821e9249000130_2_1">
+
+                        <div class="field">
+                            <input type="checkbox" name="input_d12755721737441bb7821e9249000130_2_1[]"
+                                id="input_d12755721737441bb7821e9249000130_2_1_choice_0"
+                                class="field-input input-checkbox submitted" value="choice_0" checked="true"><label
+                                id="d12755721737441bb7821e9249000130_2_1-choice_0-label"
+                                for="input_d12755721737441bb7821e9249000130_2_1_choice_0"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_d12755721737441bb7821e9249000130_2_1"> Установленное
+                                программное обеспечение
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="checkbox" name="input_d12755721737441bb7821e9249000130_2_1[]"
+                                id="input_d12755721737441bb7821e9249000130_2_1_choice_1"
+                                class="field-input input-checkbox submitted" value="choice_1" checked="true"><label
+                                id="d12755721737441bb7821e9249000130_2_1-choice_1-label"
+                                for="input_d12755721737441bb7821e9249000130_2_1_choice_1"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_d12755721737441bb7821e9249000130_2_1"> Имя последнего
+                                пользователя, время выхода
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="checkbox" name="input_d12755721737441bb7821e9249000130_2_1[]"
+                                id="input_d12755721737441bb7821e9249000130_2_1_choice_2"
+                                class="field-input input-checkbox submitted" value="choice_2" checked="true"><label
+                                id="d12755721737441bb7821e9249000130_2_1-choice_2-label"
+                                for="input_d12755721737441bb7821e9249000130_2_1_choice_2"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_d12755721737441bb7821e9249000130_2_1"> Версию, текущий билд,
+                                дату и время установки ОС
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="checkbox" name="input_d12755721737441bb7821e9249000130_2_1[]"
+                                id="input_d12755721737441bb7821e9249000130_2_1_choice_3"
+                                class="field-input input-checkbox" value="choice_3"><label
+                                id="d12755721737441bb7821e9249000130_2_1-choice_3-label"
+                                for="input_d12755721737441bb7821e9249000130_2_1_choice_3"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_d12755721737441bb7821e9249000130_2_1"> Настройки часового пояса
+                            </label>
+                        </div>
+                        <span id="answer_d12755721737441bb7821e9249000130_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Что является следами первоначального доступа через электронную почту?</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_225aed15c59d4cecb7be2936b443afc7_2_1">
+                    <fieldset aria-describedby="status_225aed15c59d4cecb7be2936b443afc7_2_1">
+
+                        <div class="field">
+                            <input type="radio" name="input_225aed15c59d4cecb7be2936b443afc7_2_1"
+                                id="input_225aed15c59d4cecb7be2936b443afc7_2_1_choice_0" class="field-input input-radio"
+                                value="choice_0"><label id="225aed15c59d4cecb7be2936b443afc7_2_1-choice_0-label"
+                                for="input_225aed15c59d4cecb7be2936b443afc7_2_1_choice_0"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_225aed15c59d4cecb7be2936b443afc7_2_1"> История браузеров,
+                                загрузки
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_225aed15c59d4cecb7be2936b443afc7_2_1"
+                                id="input_225aed15c59d4cecb7be2936b443afc7_2_1_choice_1"
+                                class="field-input input-radio submitted" value="choice_1" checked="true"><label
+                                id="225aed15c59d4cecb7be2936b443afc7_2_1-choice_1-label"
+                                for="input_225aed15c59d4cecb7be2936b443afc7_2_1_choice_1"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_225aed15c59d4cecb7be2936b443afc7_2_1"> Подозрительные вложения
+                                — документы, архивы, pdf, lnk, ссылки
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_225aed15c59d4cecb7be2936b443afc7_2_1"
+                                id="input_225aed15c59d4cecb7be2936b443afc7_2_1_choice_2" class="field-input input-radio"
+                                value="choice_2"><label id="225aed15c59d4cecb7be2936b443afc7_2_1-choice_2-label"
+                                for="input_225aed15c59d4cecb7be2936b443afc7_2_1_choice_2"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_225aed15c59d4cecb7be2936b443afc7_2_1"> Подозрительные
+                                подключения по RDP
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_225aed15c59d4cecb7be2936b443afc7_2_1"
+                                id="input_225aed15c59d4cecb7be2936b443afc7_2_1_choice_3" class="field-input input-radio"
+                                value="choice_3"><label id="225aed15c59d4cecb7be2936b443afc7_2_1-choice_3-label"
+                                for="input_225aed15c59d4cecb7be2936b443afc7_2_1_choice_3"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_225aed15c59d4cecb7be2936b443afc7_2_1"> Следы эксфильтрации
+                                данных
+                            </label>
+                        </div>
+                        <span id="answer_225aed15c59d4cecb7be2936b443afc7_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Что хранится в оперативной памяти?</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_592a0cd1544948319f1209987d777f8d_2_1">
+                    <fieldset aria-describedby="status_592a0cd1544948319f1209987d777f8d_2_1">
+
+                        <div class="field">
+                            <input type="radio" name="input_592a0cd1544948319f1209987d777f8d_2_1"
+                                id="input_592a0cd1544948319f1209987d777f8d_2_1_choice_0" class="field-input input-radio"
+                                value="choice_0"><label id="592a0cd1544948319f1209987d777f8d_2_1-choice_0-label"
+                                for="input_592a0cd1544948319f1209987d777f8d_2_1_choice_0"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_592a0cd1544948319f1209987d777f8d_2_1"> Долгосрочные резервные
+                                копии данных
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_592a0cd1544948319f1209987d777f8d_2_1"
+                                id="input_592a0cd1544948319f1209987d777f8d_2_1_choice_1"
+                                class="field-input input-radio submitted" value="choice_1" checked="true"><label
+                                id="592a0cd1544948319f1209987d777f8d_2_1-choice_1-label"
+                                for="input_592a0cd1544948319f1209987d777f8d_2_1_choice_1"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_592a0cd1544948319f1209987d777f8d_2_1"> Временные данные и
+                                команды, которые используются процессором для выполнения текущих задач
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_592a0cd1544948319f1209987d777f8d_2_1"
+                                id="input_592a0cd1544948319f1209987d777f8d_2_1_choice_2" class="field-input input-radio"
+                                value="choice_2"><label id="592a0cd1544948319f1209987d777f8d_2_1-choice_2-label"
+                                for="input_592a0cd1544948319f1209987d777f8d_2_1_choice_2"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_592a0cd1544948319f1209987d777f8d_2_1"> Настройки BIOS и
+                                параметры загрузки системы
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_592a0cd1544948319f1209987d777f8d_2_1"
+                                id="input_592a0cd1544948319f1209987d777f8d_2_1_choice_3" class="field-input input-radio"
+                                value="choice_3"><label id="592a0cd1544948319f1209987d777f8d_2_1-choice_3-label"
+                                for="input_592a0cd1544948319f1209987d777f8d_2_1_choice_3"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_592a0cd1544948319f1209987d777f8d_2_1"> Файлы операционной
+                                системы и драйверы оборудования в зашифрованном виде
+                            </label>
+                        </div>
+                        <span id="answer_592a0cd1544948319f1209987d777f8d_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Какими инструментами можно снять дамп оперативной памяти?</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_bfddf1c67fc843d1a91df96c6a1838e1_2_1">
+                    <fieldset aria-describedby="status_bfddf1c67fc843d1a91df96c6a1838e1_2_1">
+
+                        <div class="field">
+                            <input type="checkbox" name="input_bfddf1c67fc843d1a91df96c6a1838e1_2_1[]"
+                                id="input_bfddf1c67fc843d1a91df96c6a1838e1_2_1_choice_0"
+                                class="field-input input-checkbox submitted" value="choice_0" checked="true"><label
+                                id="bfddf1c67fc843d1a91df96c6a1838e1_2_1-choice_0-label"
+                                for="input_bfddf1c67fc843d1a91df96c6a1838e1_2_1_choice_0"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_bfddf1c67fc843d1a91df96c6a1838e1_2_1"> FTK Imager
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="checkbox" name="input_bfddf1c67fc843d1a91df96c6a1838e1_2_1[]"
+                                id="input_bfddf1c67fc843d1a91df96c6a1838e1_2_1_choice_1"
+                                class="field-input input-checkbox submitted" value="choice_1" checked="true"><label
+                                id="bfddf1c67fc843d1a91df96c6a1838e1_2_1-choice_1-label"
+                                for="input_bfddf1c67fc843d1a91df96c6a1838e1_2_1_choice_1"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_bfddf1c67fc843d1a91df96c6a1838e1_2_1"> Dumplt
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="checkbox" name="input_bfddf1c67fc843d1a91df96c6a1838e1_2_1[]"
+                                id="input_bfddf1c67fc843d1a91df96c6a1838e1_2_1_choice_2"
+                                class="field-input input-checkbox submitted" value="choice_2" checked="true"><label
+                                id="bfddf1c67fc843d1a91df96c6a1838e1_2_1-choice_2-label"
+                                for="input_bfddf1c67fc843d1a91df96c6a1838e1_2_1_choice_2"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_bfddf1c67fc843d1a91df96c6a1838e1_2_1"> Belkasoft Live RAM
+                                Capturer
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="checkbox" name="input_bfddf1c67fc843d1a91df96c6a1838e1_2_1[]"
+                                id="input_bfddf1c67fc843d1a91df96c6a1838e1_2_1_choice_3"
+                                class="field-input input-checkbox" value="choice_3"><label
+                                id="bfddf1c67fc843d1a91df96c6a1838e1_2_1-choice_3-label"
+                                for="input_bfddf1c67fc843d1a91df96c6a1838e1_2_1_choice_3"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_bfddf1c67fc843d1a91df96c6a1838e1_2_1"> Autopsy
+                            </label>
+                        </div>
+                        <span id="answer_bfddf1c67fc843d1a91df96c6a1838e1_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Назовите самые распространенные форматы дампов сырых данных? </p>
+                <div class="choicegroup capa_inputtype" id="inputtype_0cb23b4d0fc6450784a5f065c69536c1_2_1">
+                    <fieldset aria-describedby="status_0cb23b4d0fc6450784a5f065c69536c1_2_1">
+
+                        <div class="field">
+                            <input type="radio" name="input_0cb23b4d0fc6450784a5f065c69536c1_2_1"
+                                id="input_0cb23b4d0fc6450784a5f065c69536c1_2_1_choice_0" class="field-input input-radio"
+                                value="choice_0"><label id="0cb23b4d0fc6450784a5f065c69536c1_2_1-choice_0-label"
+                                for="input_0cb23b4d0fc6450784a5f065c69536c1_2_1_choice_0"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_0cb23b4d0fc6450784a5f065c69536c1_2_1"> raw, gz, tar, img
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_0cb23b4d0fc6450784a5f065c69536c1_2_1"
+                                id="input_0cb23b4d0fc6450784a5f065c69536c1_2_1_choice_1" class="field-input input-radio"
+                                value="choice_1"><label id="0cb23b4d0fc6450784a5f065c69536c1_2_1-choice_1-label"
+                                for="input_0cb23b4d0fc6450784a5f065c69536c1_2_1_choice_1"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_0cb23b4d0fc6450784a5f065c69536c1_2_1"> txt, csv, log, json
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_0cb23b4d0fc6450784a5f065c69536c1_2_1"
+                                id="input_0cb23b4d0fc6450784a5f065c69536c1_2_1_choice_2"
+                                class="field-input input-radio submitted" value="choice_2" checked="true"><label
+                                id="0cb23b4d0fc6450784a5f065c69536c1_2_1-choice_2-label"
+                                for="input_0cb23b4d0fc6450784a5f065c69536c1_2_1_choice_2"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_0cb23b4d0fc6450784a5f065c69536c1_2_1"> img, raw, bin, mem
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="radio" name="input_0cb23b4d0fc6450784a5f065c69536c1_2_1"
+                                id="input_0cb23b4d0fc6450784a5f065c69536c1_2_1_choice_3" class="field-input input-radio"
+                                value="choice_3"><label id="0cb23b4d0fc6450784a5f065c69536c1_2_1-choice_3-label"
+                                for="input_0cb23b4d0fc6450784a5f065c69536c1_2_1_choice_3"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_0cb23b4d0fc6450784a5f065c69536c1_2_1"> exe, ps1, js,bin
+                            </label>
+                        </div>
+                        <span id="answer_0cb23b4d0fc6450784a5f065c69536c1_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="wrapper-problem-response" tabindex="-1" aria-label="Вопрос 1" role="group">
+                <p>Какие данные реестра мы можем найти в дампе оперативной памяти?</p>
+                <div class="choicegroup capa_inputtype" id="inputtype_1c975e525701481b993d680996646f1d_2_1">
+                    <fieldset aria-describedby="status_1c975e525701481b993d680996646f1d_2_1">
+
+                        <div class="field">
+                            <input type="checkbox" name="input_1c975e525701481b993d680996646f1d_2_1[]"
+                                id="input_1c975e525701481b993d680996646f1d_2_1_choice_0"
+                                class="field-input input-checkbox submitted" value="choice_0" checked="true"><label
+                                id="1c975e525701481b993d680996646f1d_2_1-choice_0-label"
+                                for="input_1c975e525701481b993d680996646f1d_2_1_choice_0"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_1c975e525701481b993d680996646f1d_2_1"> Информация о системе
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="checkbox" name="input_1c975e525701481b993d680996646f1d_2_1[]"
+                                id="input_1c975e525701481b993d680996646f1d_2_1_choice_1"
+                                class="field-input input-checkbox submitted" value="choice_1" checked="true"><label
+                                id="1c975e525701481b993d680996646f1d_2_1-choice_1-label"
+                                for="input_1c975e525701481b993d680996646f1d_2_1_choice_1"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_1c975e525701481b993d680996646f1d_2_1"> Действие в системе
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="checkbox" name="input_1c975e525701481b993d680996646f1d_2_1[]"
+                                id="input_1c975e525701481b993d680996646f1d_2_1_choice_2"
+                                class="field-input input-checkbox submitted" value="choice_2" checked="true"><label
+                                id="1c975e525701481b993d680996646f1d_2_1-choice_2-label"
+                                for="input_1c975e525701481b993d680996646f1d_2_1_choice_2"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_1c975e525701481b993d680996646f1d_2_1"> Следы закрепления
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="checkbox" name="input_1c975e525701481b993d680996646f1d_2_1[]"
+                                id="input_1c975e525701481b993d680996646f1d_2_1_choice_3"
+                                class="field-input input-checkbox submitted" value="choice_3" checked="true"><label
+                                id="1c975e525701481b993d680996646f1d_2_1-choice_3-label"
+                                for="input_1c975e525701481b993d680996646f1d_2_1_choice_3"
+                                class="response-label field-label label-inline choicegroup_correct"
+                                aria-describedby="status_1c975e525701481b993d680996646f1d_2_1"> Установленные программы
+                            </label>
+                        </div>
+
+                        <div class="field">
+                            <input type="checkbox" name="input_1c975e525701481b993d680996646f1d_2_1[]"
+                                id="input_1c975e525701481b993d680996646f1d_2_1_choice_4"
+                                class="field-input input-checkbox" value="choice_4"><label
+                                id="1c975e525701481b993d680996646f1d_2_1-choice_4-label"
+                                for="input_1c975e525701481b993d680996646f1d_2_1_choice_4"
+                                class="response-label field-label label-inline"
+                                aria-describedby="status_1c975e525701481b993d680996646f1d_2_1"> Данные старых версий ПО
+                            </label>
+                        </div>
+                        <span id="answer_1c975e525701481b993d680996646f1d_2_1"></span>
+                    </fieldset>
+                </div>
+            </div>
+
+        </div> <!-- Модуль 2: КОНЕЦ -->
+
+        <h2>Модуль 3. Основы глубокого машинного обучения в информационной безопасности</h2>
+        <div>
+
+        </div> <!-- Модуль 3: КОНЕЦ -->
+
+        <h2>Модуль 4. Продвинутые методы глубокого машинного обучения и NLP в ИБ</h2>
+        <div>
+
+
+        </div> <!-- Модуль 4: КОНЕЦ -->
+    </div>
+</body>

@@ -255,3 +255,7 @@
 1. [Компетенции аналитиков второй и третьей линии SOC](./tech_counter_comp_attacks/02_Комп_аналитиков_2_3_линии_SOC.md)
 1. [Основы мониторинга событий и построения SOC](./tech_counter_comp_attacks/03_Основы_мон_соб_постр_SOC.md)
 1. [Практическое изучение платформы MXDR](./tech_counter_comp_attacks/04_Практическое_изучение_платформы_MXDR.md)
+
+Тесты:
+- [./tech_counter_comp_attacks/questions.html](./tech_counter_comp_attacks/questions.html)
+- html: 
