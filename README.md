@@ -242,7 +242,7 @@
 
 Тесты:
 - [./net_sec/questions.html](./net_sec/questions.html)
-- html: 
+- html: [https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/net_sec/questions.html](https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/net_sec/questions.html)
 
 ### 2. Технологии противодействия компьютерным атакам
 

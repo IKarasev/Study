@@ -74,4 +74,4 @@
 ## Тесты
 
 - [./questions.html](./questions.html)
-- html: 
+- html: [https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/net_sec/questions.html](https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/net_sec/questions.html) 
