@@ -207,6 +207,10 @@
 
 [Семинары](./computer_forensics/lec1.md)
 
+Тесты:
+- [./computer_forensics/questions.html](./computer_forensics/questions.html)
+- html: 
+
 ### 2. Искусственный интеллект в ИБ
 
 Директория: [./ai_is/](./ai_is/)
