@@ -225,6 +225,17 @@
 - [./ai_is/questions.html](./ai_is/questions.html)
 - в html: [https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/ai_is/questions.html](https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/ai_is/questions.html)
 
+### 3. Формализованные модели и методы решения аналитических задач
+
+Директория: [./form_models_and_sol_methods](./form_models_and_sol_methods)
+
+Модули:
+1. [Построение моделей](./form_models_and_sol_methods/01_postroenie_modeley.md)
+1. [Модели теории игр](./form_models_and_sol_methods/02_game_theory_mod.md)
+1. [Модели линейного программирования](./form_models_and_sol_methods/03_linear_programming_mod.md)
+1. [Кросс-идеи и универсальные методы](./form_models_and_sol_methods/04_cross_ideas_unif_methods.md)
+
+
 ## Пентест
 
 ### 1. Защита каналов связи
