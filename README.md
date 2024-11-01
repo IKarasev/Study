@@ -271,3 +271,17 @@
 - [./tech_counter_comp_attacks/questions.html](./tech_counter_comp_attacks/questions.html)
 - html: [https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/tech_counter_comp_attacks/questions.html](https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/tech_counter_comp_attacks/questions.html)
 
+### 3. Радиотелекоммуникационные сети и защита информации
+
+Директория: [./telecom_info_sec](./telecom_info_sec)
+
+Силлабус: [./telecom_info_sec/syllabus.md](./telecom_info_sec/syllabus.md)
+
+Модули:
+1. [Введение в радиотелекоммуникационные системы](./telecom_info_sec/01_Введение_в_радиотелекоммуникационные_системы.md)
+1. [Системы спутниковой и транкинговой радиосвязи](./telecom_info_sec/02_Сис_спут_и_транкинговой_р_связи.md)
+1. [Современные технологии беспроводных сетей](./telecom_info_sec/03_Совр_тех_беспр_сетей.md)
+1. [Технологию программно-определяемых радиосистем и ее применение в исследовании защищенности радиотелекоммуникационных систем](./telecom_info_sec/04_Тех_прог_опр_радсис_прим_в_иссл_защищенности_радкомм_систем.md)
+
+Тесты:
+- [./telecom_info_sec/questions.html](./telecom_info_sec/questions.html)
