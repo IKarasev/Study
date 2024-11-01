@@ -62,4 +62,4 @@
 ## Тесты
 
 - [./questions.html](./questions.html)
-- html:
+- [html preview](https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/telecom_info_sec/questions.html)
