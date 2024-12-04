@@ -286,3 +286,16 @@
 Тесты:
 - [./telecom_info_sec/questions.html](./telecom_info_sec/questions.html)
 - [html preview](https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/telecom_info_sec/questions.html)
+
+### 4. Технологии пентестинга
+
+
+Директория: [./pentest_tech/](./pentest_tech/)
+
+Силлабус: [./pentest_tech/syllabus.md](./pentest_tech/syllabus.md)
+
+Модули:
+1. [Введение в тестирование на проникновение](./pentest_tech/01_Введение_тестирование_на_проникновение.md)
+1. [Разведка](./pentest_tech/02_Разведка.md)
+1. [Эксплуатация уязвимостей](./pentest_tech/03_Эксплуатация_уязвимостей.md)
+1. [Постэксплуатация](./pentest_tech/04_Постэксплуатация.md)
