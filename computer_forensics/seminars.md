@@ -127,4 +127,31 @@
     - Web Browser Tools
         - BroswingHistoryView : 34:46
 
+# Linux Forensics
 
+## Семинар 21.09.2024
+
+### GSocket
+
+1. intro : 3:38
+1. cron : 5:58
+1. закреп в /usr/bin : 11:20
+1. bashrc & bashprofile : 14:25
+1. сервис : 15:20
+1. logs : 17:30
+1. to check : 19:45
+1. hidden files : 20:40
+1. ld so preload : 24:06
+
+### RAM dump
+
+1. intro : 37:25
+1. lime : 37:46
+
+### Временные метки
+
+1. 45:50
+
+### Velociraptor
+
+1. intro : 54:12
