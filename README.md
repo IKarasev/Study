@@ -299,3 +299,7 @@
 1. [Разведка](./pentest_tech/02_Разведка.md)
 1. [Эксплуатация уязвимостей](./pentest_tech/03_Эксплуатация_уязвимостей.md)
 1. [Постэксплуатация](./pentest_tech/04_Постэксплуатация.md)
+
+Тесты:
+- [questions.hmtl](./pentest_tech/questions.html)
+- [html preview](https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/pentest_tech/questions.html)
