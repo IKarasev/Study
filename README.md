@@ -248,7 +248,7 @@
 
 Тесты:
 - [html](./soc_engi/questions.html)
-- [web]()
+- [web](https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/soc_engi/questions.html)
 
 ## Пентест
 
