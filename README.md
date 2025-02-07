@@ -316,3 +316,18 @@
 Тесты:
 - [questions.hmtl](./pentest_tech/questions.html)
 - [html preview](https://htmlpreview.github.io/?https://github.com/IKarasev/Study/blob/main/pentest_tech/questions.html)
+
+# Второй курс. 2 Семестр
+
+## Общее
+
+###  1. Оценка эффективности проектов
+
+Директория: [./project_eff_accessment](./project_eff_accessment/)
+
+Силлабус: [./project_eff_accessment/syllabus.md](./project_eff_accessment/syllabus.md)
+
+Модули:
+1. [Основы проектной деятельности](./project_eff_accessment/01_Основы_проектной_деятельности.md)
+1. [Ресурсное планирование проекта](./project_eff_accessment/02_Ресурсное_планирование_проекта.md)
+1. [Взаимодействие с заказчиком в ходе реализации проекта](./project_eff_accessment/03_Взаим_заказчиком_в_реализации_проекта.md)
