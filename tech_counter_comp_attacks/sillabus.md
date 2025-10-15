@@ -143,7 +143,7 @@
 - Johansen G. Digital Forensics and Incident Response. М.: Packt Publishing, 2017. 324 c.
 - Sammons J. The Basics of Digital Forensics: The Primer for Getting Started in Digital Forensics. M.: Elsevier, 2012. 208 c.
 - Luttgens J.T., Pepe M., Mandia K. Incident Response & Computer Forensics. M.: McGraw Hill Professional, 2014. 544 c.
-- [Msuhanov M. (2021, 10 марта). $STANDARD_INFORMATION vs. $FILE_NAME](https://dfir.ru/2021/01/10/standard_information-vs-file_name/)
+- [Suhanov M. (2021, 10 января). $STANDARD_INFORMATION vs. $FILE_NAME](https://dfir.ru/2021/01/10/standard_information-vs-file_name/)
 - [Harrison A. (2019, 1 октября). Available Artifacts - Evidence of Execution](https://blog.1234n6.com/2018/10/available-artifacts-evidence-of.html)
 - [Бирюков А. (2023, 14 ноября). И снова про SIEM](https://habr.com/ru/companies/otus/articles/773430/)
 - [Основной репозиторий правил SIGMA](https://github.com/SigmaHQ/sigma)
